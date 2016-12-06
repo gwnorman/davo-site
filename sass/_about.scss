@@ -1,0 +1,49 @@
+#about_davo {
+  background: $grey !important;
+  .main-content {
+    padding: 50px 0;
+  }
+  .section-title {
+    text-align: left;
+    padding-bottom: 0px;
+  }
+  .fb-page {
+    -moz-box-shadow: 0px 0px 8px rgba(68,68,68,0.6);
+    -webkit-box-shadow: 0px 0px 8px rgba(68,68,68,0.6);
+    box-shadow: 0px 0px 8px rgba(68,68,68,0.6);
+    border: 1px solid #666666;
+    margin-bottom: 10px;
+  }
+  .feature-video {
+    h4 {
+      font-size: 22px;
+      line-height: 35px;
+      color:$med-blue;
+      padding-bottom: 20px;
+    }
+  }
+  .video-library {
+    a {
+      margin-right: 10px;
+
+    }
+    margin-bottom: 30px;
+  }
+  .social-links {
+    h5 {
+      color: #434343;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+    a {
+      text-align: center;
+      display: inline-block;
+      float: left;
+      padding: 10px 10px;
+      span {
+        line-height: 20px;
+      }
+    }
+  }
+}

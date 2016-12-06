@@ -1,0 +1,59 @@
+section#products {
+  background-color: $grey;
+  .section-intro {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .news-single {
+    background-color: #fff;
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid $med-grey;
+  }
+  .news-single {
+    -moz-box-shadow: 0px 0px 15px rgba(68,68,68,0.4);
+    -webkit-box-shadow: 0px 0px 15px rgba(68,68,68,0.4);
+    box-shadow: 0px 0px 15px rgba(68,68,68,0.4);
+    .news-header {
+      background-color: $blue;
+      padding: 25px;
+      font-size: 28px;
+      line-height: 30px;
+      text-transform: capitalize;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100;
+      text-align: center;
+      color: $white;
+    }
+    .news-title h3, .news-title h3 {
+      text-transform: capitalize;
+    }
+    .product-list {
+      list-style: none;
+      padding:0;
+      margin:0;
+      @media (min-width: 1199px) {
+        min-height:290px;
+      }
+      @media (min-width: 992px) and (max-width: 1198px) {
+        min-height:350px;
+      }
+      li {
+        margin-bottom: 15px;
+      }
+      li {
+        padding-left: 1em;
+        text-indent: -.7em;
+      }
+      li:before {
+        content: "• ";
+        color: $blue; /* or whatever color you prefer */
+      }
+    }
+  }
+
+}

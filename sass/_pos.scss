@@ -1,0 +1,10 @@
+#services {
+  .service {
+    padding: 15px;
+    .inner {
+      padding: 30px;
+      border: 1px solid $med-grey;
+      border-radius: 30px;
+    }
+  }
+}

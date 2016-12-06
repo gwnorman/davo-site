@@ -1,0 +1,267 @@
+@charset "UTF-8";
+.pad-top-none {
+  padding-top: 0; }
+
+.pad-top-sm {
+  padding-top: 10px; }
+
+.pad-top-med {
+  padding-top: 25px; }
+
+.pad-top-lg {
+  padding-top: 50px; }
+
+.pad-bottom-none {
+  padding-bottom: 0; }
+
+.pad-bottom-sm {
+  padding-bottom: 10px; }
+
+.pad-bottom-med {
+  padding-bottom: 25px; }
+
+.pad-bottom-lg {
+  padding-bottom: 50px; }
+
+.pad-left-none {
+  padding-left: 0; }
+
+.pad-left-sm {
+  padding-left: 10px; }
+
+.pad-left-med {
+  padding-left: 25px; }
+
+.pad-left-lg {
+  padding-left: 50px; }
+
+.pad-right-none {
+  padding-right: 0; }
+
+.pad-right-sm {
+  padding-right: 10px; }
+
+.pad-right-med {
+  padding-right: 25px; }
+
+.pad-right-lg {
+  padding-right: 50px; }
+
+.margin-bottom-none {
+  margin-bottom: 0; }
+
+.margin-bottom-sm {
+  margin-bottom: 10px; }
+
+.margin-bottom-med {
+  margin-bottom: 25px; }
+
+.margin-bottom-lg {
+  margin-bottom: 50px; }
+
+.section-title p {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.7;
+  text-transform: none; }
+
+.content-right {
+  text-align: right; }
+
+.content-left {
+  text-align: left; }
+
+.content-center {
+  text-align: center; }
+
+.navbar-brand img {
+  height: 80px;
+  cursor: pointer; }
+
+.navbar-brand {
+  float: left;
+  height: 80px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 20px; }
+
+.navbar .navbar-nav > li > a {
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #f6f6f6;
+  letter-spacing: 0.9px; }
+
+.navbar .navbar-nav > li > a.cart .btn {
+  padding: 10px !important;
+  margin-top: -8px; }
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: left;
+    margin: 12px -15px; } }
+.top-footer .about img {
+  height: 60px;
+  margin-bottom: 25px; }
+
+#about_davo {
+  background: #f4f4f4 !important; }
+  #about_davo .main-content {
+    padding: 50px 0; }
+  #about_davo .section-title {
+    text-align: left;
+    padding-bottom: 0px; }
+  #about_davo .fb-page {
+    -moz-box-shadow: 0px 0px 8px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 0px 0px 8px rgba(68, 68, 68, 0.6);
+    box-shadow: 0px 0px 8px rgba(68, 68, 68, 0.6);
+    border: 1px solid #666666;
+    margin-bottom: 10px; }
+  #about_davo .feature-video h4 {
+    font-size: 22px;
+    line-height: 35px;
+    color: #0b7bba;
+    padding-bottom: 20px; }
+  #about_davo .video-library {
+    margin-bottom: 30px; }
+    #about_davo .video-library a {
+      margin-right: 10px; }
+  #about_davo .social-links h5 {
+    color: #434343;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px; }
+  #about_davo .social-links a {
+    text-align: center;
+    display: inline-block;
+    float: left;
+    padding: 10px 10px; }
+    #about_davo .social-links a span {
+      line-height: 20px; }
+
+#services .service {
+  padding: 15px; }
+  #services .service .inner {
+    padding: 30px;
+    border: 1px solid #CCCCCC;
+    border-radius: 30px; }
+
+section#davo_testimonials {
+  background-color: #f4f4f4; }
+  section#davo_testimonials .news-details {
+    min-height: 130px; }
+  section#davo_testimonials .news-single {
+    background-color: #fff;
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #CCCCCC; }
+
+#sign-up {
+  padding: 40px 0 10px 0;
+  background: #29b1fd;
+  color: #FFFFFF; }
+  #sign-up .pitch {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    line-height: 40px;
+    padding: 10px 0;
+    margin-right: 30px;
+    color: #FFFFFF; }
+  #sign-up .foot-msg {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: .03em; }
+  #sign-up .btn {
+    padding: 20px 30px;
+    font-size: 45px;
+    color: #FFFFFF;
+    background: #0b7bba;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    text-transform: none;
+    font-weight: 400; }
+    #sign-up .btn:hover {
+      background: #045b8c; }
+
+section#products {
+  background-color: #f4f4f4; }
+  section#products .section-intro {
+    font-size: 16px;
+    line-height: normal; }
+  section#products .news-single {
+    background-color: #fff;
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #CCCCCC; }
+  section#products .news-single {
+    -moz-box-shadow: 0px 0px 15px rgba(68, 68, 68, 0.4);
+    -webkit-box-shadow: 0px 0px 15px rgba(68, 68, 68, 0.4);
+    box-shadow: 0px 0px 15px rgba(68, 68, 68, 0.4); }
+    section#products .news-single .news-header {
+      background-color: #29b1fd;
+      padding: 25px;
+      font-size: 28px;
+      line-height: 30px;
+      text-transform: capitalize;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100;
+      text-align: center;
+      color: #FFFFFF; }
+    section#products .news-single .news-title h3, section#products .news-single .news-title h3 {
+      text-transform: capitalize; }
+    section#products .news-single .product-list {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      @media (min-width: 1199px) {
+        section#products .news-single .product-list {
+          min-height: 290px; } }
+      @media (min-width: 992px) and (max-width: 1198px) {
+        section#products .news-single .product-list {
+          min-height: 350px; } }
+      section#products .news-single .product-list li {
+        margin-bottom: 15px; }
+      section#products .news-single .product-list li {
+        padding-left: 1em;
+        text-indent: -.7em; }
+      section#products .news-single .product-list li:before {
+        content: "• ";
+        color: #29b1fd;
+        /* or whatever color you prefer */ }
+
+section#break-line {
+  padding: 30px 0;
+  background-color: #29b1fd; }
+  section#break-line h2 {
+    font-weight: 100;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 0; }
+
+.supportTable {
+  display: table; }
+
+.supportRow {
+  display: table-row;
+  margin-bottom: 10px; }
+
+.supportCell {
+  display: table-cell;
+  margin-bottom: 20px;
+  vertical-align: middle; }
+  .supportCell p {
+    top: 50%; }

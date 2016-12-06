@@ -1,0 +1,88 @@
+.pad-top-none {
+   padding-top: 0;
+ }
+.pad-top-sm {
+  padding-top: 10px;
+}
+.pad-top-med {
+  padding-top: 25px;
+}
+.pad-top-lg {
+  padding-top: 50px;
+}
+.pad-bottom-none {
+  padding-bottom: 0;
+}
+.pad-bottom-sm {
+  padding-bottom: 10px;
+}
+.pad-bottom-med {
+  padding-bottom: 25px;
+}
+.pad-bottom-lg {
+  padding-bottom: 50px;
+}
+.pad-left-none {
+  padding-left: 0;
+}
+.pad-left-sm {
+  padding-left: 10px;
+}
+.pad-left-med {
+  padding-left: 25px;
+}
+.pad-left-lg {
+  padding-left: 50px;
+}
+.pad-right-none {
+  padding-right: 0;
+}
+.pad-right-sm {
+  padding-right: 10px;
+}
+.pad-right-med {
+  padding-right: 25px;
+}
+.pad-right-lg {
+  padding-right: 50px;
+}
+.margin-bottom-none {
+  margin-bottom: 0;
+}
+.margin-bottom-sm {
+  margin-bottom: 10px;
+}
+.margin-bottom-med {
+  margin-bottom: 25px;
+}
+.margin-bottom-lg {
+  margin-bottom: 50px;
+}
+.section-title p {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.7;
+  text-transform: none;
+}
+.content-right {
+  text-align: right;
+}
+.content-left {
+  text-align: left;
+}
+.content-center {
+  text-align: center;
+}
+
+// header
+.navbar-brand img {
+  height: 80px;
+  cursor: pointer;
+}
+.navbar-brand {
+  float: left;
+  height: 80px;
+   padding: 0;
+  font-size: 18px;
+  line-height: 20px;
+}

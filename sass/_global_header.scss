@@ -1,0 +1,17 @@
+.navbar .navbar-nav > li > a {
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #f6f6f6;
+  letter-spacing: 0.9px;
+}
+.navbar .navbar-nav > li > a.cart .btn {
+  padding: 10px !important;
+  margin-top: -8px;
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: left;
+    margin: 12px -15px;
+  }
+}

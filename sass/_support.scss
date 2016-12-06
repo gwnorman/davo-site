@@ -1,0 +1,21 @@
+.supportTable
+{
+  display: table;
+}
+
+.supportRow
+{
+  display:table-row;
+  margin-bottom: 10px;
+}
+
+.supportCell
+{
+  display: table-cell;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  p {
+    top: 50%;
+
+  }
+}
