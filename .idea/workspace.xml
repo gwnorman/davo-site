@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="434" column="37" selection-start-line="434" selection-start-column="37" selection-end-line="434" selection-end-column="37" />
+            <state relative-caret-position="497">
+              <caret line="446" column="32" selection-start-line="446" selection-start-column="32" selection-end-line="446" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -97,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-522">
-              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="52" />
+            <state relative-caret-position="174">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -143,13 +143,13 @@
         <option value="$PROJECT_DIR$/sass/_global_header.scss" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/sass/_global_footer.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/_global.scss" />
         <option value="$PROJECT_DIR$/sass/_support.scss" />
         <option value="$PROJECT_DIR$/sass/davo.scss" />
-        <option value="$PROJECT_DIR$/sass/_mixins.scss" />
         <option value="$PROJECT_DIR$/sass/_testimonials.scss" />
         <option value="$PROJECT_DIR$/sass/_products.scss" />
+        <option value="$PROJECT_DIR$/sass/_mixins.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -352,12 +352,12 @@
       <workItem from="1479655874053" duration="2578000" />
       <workItem from="1480306248667" duration="6337000" />
       <workItem from="1480461134822" duration="6158000" />
-      <workItem from="1480993608759" duration="3108000" />
+      <workItem from="1480993608759" duration="3392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26078000" />
+    <option name="totallyTimeSpent" value="26362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
@@ -682,18 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="434" column="37" selection-start-line="434" selection-start-column="37" selection-end-line="434" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4499#4505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_global_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -744,9 +732,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="52" />
+        <state relative-caret-position="174">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="446" column="32" selection-start-line="446" selection-start-column="32" selection-end-line="446" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4499#4505#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
