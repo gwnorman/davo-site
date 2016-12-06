@@ -85,6 +85,15 @@
   font-size: 18px;
   line-height: 20px; }
 
+#break-line h2 {
+  letter-spacing: 0.1em; }
+  @media (max-width: 768px) {
+    #break-line h2 {
+      font-size: 20px; }
+      #break-line h2 .cloud-logo {
+        display: block;
+        text-align: center; } }
+
 .navbar .navbar-nav > li > a {
   text-transform: none;
   font-size: 14px;
@@ -147,7 +156,11 @@
     border-radius: 30px; }
 
 section#davo_testimonials {
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+  background-image: url(../images/testimonilas-backdrop.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%; }
   section#davo_testimonials .news-details {
     min-height: 130px; }
   section#davo_testimonials .news-single {
@@ -158,7 +171,13 @@ section#davo_testimonials {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    border: 1px solid #CCCCCC; }
+    border: 1px solid #CCCCCC;
+    -webkit-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
+    -moz-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
+    box-shadow: 0 0 15px rgba(68, 68, 68, 0.4); }
+  section#davo_testimonials .section-title p {
+    font-size: 16px;
+    color: #333; }
 
 #sign-up {
   padding: 40px 0 10px 0;
@@ -207,9 +226,9 @@ section#products {
     box-shadow: none;
     border: 1px solid #CCCCCC; }
   section#products .news-single {
-    -moz-box-shadow: 0px 0px 15px rgba(68, 68, 68, 0.4);
-    -webkit-box-shadow: 0px 0px 15px rgba(68, 68, 68, 0.4);
-    box-shadow: 0px 0px 15px rgba(68, 68, 68, 0.4); }
+    -webkit-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
+    -moz-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
+    box-shadow: 0 0 15px rgba(68, 68, 68, 0.4); }
     section#products .news-single .news-header {
       background-color: #29b1fd;
       padding: 25px;
@@ -252,16 +271,37 @@ section#break-line {
     text-align: center;
     padding-bottom: 0; }
 
-.supportTable {
-  display: table; }
-
-.supportRow {
-  display: table-row;
-  margin-bottom: 10px; }
-
-.supportCell {
-  display: table-cell;
-  margin-bottom: 20px;
-  vertical-align: middle; }
-  .supportCell p {
-    top: 50%; }
+#support {
+  background-image: url(../images/white-abstract-new-wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%; }
+  #support .section-title {
+    margin-bottom: 40px !important; }
+    #support .section-title p {
+      color: #333;
+      font-size: 16px;
+      line-height: 25px; }
+  #support .supportTable {
+    margin-bottom: 50px;
+    display: table; }
+  #support .supportRow {
+    display: table-row;
+    margin-bottom: 10px; }
+    @media (max-width: 768px) {
+      #support .supportRow {
+        text-align: center;
+        display: block;
+        margin-bottom: 25px; } }
+  #support .supportCell {
+    color: #333;
+    display: table-cell;
+    margin-bottom: 20px;
+    vertical-align: middle; }
+    #support .supportCell p {
+      top: 50%;
+      color: #333; }
+    @media (max-width: 768px) {
+      #support .supportCell {
+        margin: auto;
+        margin-bottom: 30px; } }

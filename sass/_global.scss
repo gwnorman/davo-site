@@ -86,3 +86,15 @@
   font-size: 18px;
   line-height: 20px;
 }
+#break-line {
+  h2 {
+    letter-spacing: 0.1em;
+    @media (max-width: 768px) {
+      font-size: 20px;
+      .cloud-logo {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -148,6 +148,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/davo-cloud-logo-sm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3040,
+		"inputAbbreviatedPath": "\/images\/davo-cloud-logo-sm.png",
+		"outputAbbreviatedPath": "\/images\/davo-cloud-logo-sm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/davo-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -232,6 +243,17 @@
 		"initialSize": 52508,
 		"inputAbbreviatedPath": "\/images\/image1.jpg",
 		"outputAbbreviatedPath": "\/images\/image1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/lib-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47298,
+		"inputAbbreviatedPath": "\/images\/lib-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/lib-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -423,6 +445,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/testimonilas-backdrop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32680,
+		"inputAbbreviatedPath": "\/images\/testimonilas-backdrop.jpg",
+		"outputAbbreviatedPath": "\/images\/testimonilas-backdrop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/vid-panel.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -452,6 +485,17 @@
 		"initialSize": 5792,
 		"inputAbbreviatedPath": "\/images\/video-thumb-2.jpg",
 		"outputAbbreviatedPath": "\/images\/video-thumb-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/white-abstract-new-wallpapers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 200121,
+		"inputAbbreviatedPath": "\/images\/white-abstract-new-wallpapers.jpg",
+		"outputAbbreviatedPath": "\/images\/white-abstract-new-wallpapers.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -768,6 +812,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_global_header.scss",
 		"outputAbbreviatedPath": "\/css\/_global_header.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/_mixins.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_mixins.scss",
+		"outputAbbreviatedPath": "\/css\/_mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

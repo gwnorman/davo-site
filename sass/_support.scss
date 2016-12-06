@@ -1,21 +1,43 @@
-.supportTable
-{
-  display: table;
-}
+#support {
+  background-image: url(../images/white-abstract-new-wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%;
+  .section-title {
+    p {
+      color: #333;
+      font-size: 16px;
+      line-height: 25px;
+    }
+    margin-bottom: 40px !important;
+  }
+  .supportTable {
+    margin-bottom: 50px;
+    display: table;
+  }
 
-.supportRow
-{
-  display:table-row;
-  margin-bottom: 10px;
-}
+  .supportRow {
+    display:table-row;
+    margin-bottom: 10px;
+    @media (max-width: 768px) {
+      text-align: center;
+      display: block;
+      margin-bottom: 25px;
+    }
+  }
 
-.supportCell
-{
-  display: table-cell;
-  margin-bottom: 20px;
-  vertical-align: middle;
-  p {
-    top: 50%;
-
+  .supportCell {
+    color: #333;
+    display: table-cell;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    p {
+      top: 50%;
+      color: #333;
+    }
+    @media (max-width: 768px) {
+      margin: auto;
+      margin-bottom: 30px;
+    }
   }
 }

@@ -15,9 +15,7 @@ section#products {
     border: 1px solid $med-grey;
   }
   .news-single {
-    -moz-box-shadow: 0px 0px 15px rgba(68,68,68,0.4);
-    -webkit-box-shadow: 0px 0px 15px rgba(68,68,68,0.4);
-    box-shadow: 0px 0px 15px rgba(68,68,68,0.4);
+    @include box-shadow(0,0,15px,rgba(68,68,68,0.4));
     .news-header {
       background-color: $blue;
       padding: 25px;
