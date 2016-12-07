@@ -1,4 +1,0 @@
-*.zip
-.idea
-.DS_Store
-config.codekit
