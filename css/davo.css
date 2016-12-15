@@ -1,4 +1,18 @@
 @charset "UTF-8";
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+.fancybox-skin {
+  position: relative;
+  background: #29b2fe;
+  color: #444;
+  text-shadow: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
 .pad-top-none {
   padding-top: 0; }
 
@@ -132,6 +146,13 @@
     box-shadow: 0px 0px 8px rgba(68, 68, 68, 0.6);
     border: 1px solid #666666;
     margin-bottom: 10px; }
+  #about_davo .feature-video a img {
+    max-width: 100%;
+    height: auto;
+    display: block; }
+    @media (max-width: 767px) {
+      #about_davo .feature-video a img {
+        display: inherit; } }
   #about_davo .feature-video h4 {
     font-size: 22px;
     line-height: 35px;
@@ -140,6 +161,11 @@
     @media (max-width: 480px) {
       #about_davo .feature-video h4 {
         font-size: 18px; } }
+    @media (max-width: 767px) {
+      #about_davo .feature-video h4 a {
+        margin: auto;
+        text-align: center;
+        display: inherit; } }
   @media (max-width: 767px) {
     #about_davo .feature-video {
       text-align: center; } }
@@ -150,6 +176,10 @@
       @media (max-width: 550px) {
         #about_davo .video-library a img {
           width: 100px; } }
+      @media (max-width: 480px) {
+        #about_davo .video-library a {
+          margin-bottom: 10px;
+          display: block; } }
     @media (max-width: 767px) {
       #about_davo .video-library {
         text-align: center; } }
@@ -168,6 +198,10 @@
     @media (max-width: 767px) {
       #about_davo .social-links a {
         float: none; } }
+    @media (max-width: 480px) {
+      #about_davo .social-links a img {
+        max-width: 35px;
+        height: auto; } }
   @media (max-width: 767px) {
     #about_davo .social-links {
       text-align: center; } }
@@ -260,8 +294,9 @@ section#davo_testimonials {
         margin-bottom: 20px; } }
     @media (max-width: 480px) {
       #sign-up .btn {
-        font-size: 30px;
-        margin-bottom: 20px; } }
+        margin-left: 0;
+        font-size: 20px;
+        padding: 10px 20px; } }
   @media (max-width: 480px) {
     #sign-up .terms .foot-msg {
       text-align: center;
@@ -368,3 +403,45 @@ section#break-line {
       #support .supportCell {
         margin: auto;
         margin-bottom: 30px; } }
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+.fancybox-skin {
+  position: relative;
+  background: #29b2fe;
+  color: #444;
+  text-shadow: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+.modal-info h2.section-title {
+  background-color: #29b2fe;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px; }
+@media (max-width: 768px) {
+  .modal-info .section-title {
+    font-size: 20px; } }
+
+.modal-inner {
+  padding: 0 25px; }
+  .modal-inner p.intro {
+    padding-top: 10px; }
+  .modal-inner .modal-image {
+    margin-bottom: 25px; }
+  .modal-inner h4 {
+    margin-bottom: 25px;
+    line-height: 45px; }
+  .modal-inner li {
+    margin-bottom: 10px; }
+  .modal-inner .franchise-page-images {
+    text-align: center; }
+    .modal-inner .franchise-page-images img {
+      display: inline-block;
+      margin: 0 10px;
+      max-width: 30%; }
