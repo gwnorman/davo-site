@@ -418,6 +418,23 @@ section#break-line {
   -moz-border-radius: 4px;
   border-radius: 4px; }
 
+.panel-heading {
+  background: #fff;
+  list-style: none;
+  border-top: 7px solid #29b1fd;
+  margin: 0;
+  padding: 0; }
+
+.panel-default > .panel-heading {
+  color: #333;
+  background-color: #FFFFFF;
+  border-color: #29b1fd; }
+
+.panel-title {
+  padding: 15px;
+  font-size: 16px;
+  color: inherit; }
+
 .modal-info h2.section-title {
   background-color: #29b2fe;
   color: #FFFFFF;
@@ -445,3 +462,9 @@ section#break-line {
       display: inline-block;
       margin: 0 10px;
       max-width: 30%; }
+
+.faq-list li {
+  margin-bottom: 20px; }
+  .faq-list li strong {
+    display: block;
+    margin-bottom: 10px; }
