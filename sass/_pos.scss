@@ -5,6 +5,14 @@
       padding: 30px;
       border: 1px solid $med-grey;
       border-radius: 30px;
+      @media (max-width:500px) {
+        padding: 10px;
+      }
     }
+  }
+  .row.service-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
   }
 }

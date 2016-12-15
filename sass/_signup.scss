@@ -10,6 +10,16 @@
     padding: 10px 0;
     margin-right: 30px;
     color: $white;
+    @media ( max-width: 991px) {
+      text-align: center;
+      margin-right: 0;
+    }
+    @media ( max-width: 480px) {
+      text-align: center;
+      font-size: 25px;
+      line-height: 30px;
+      margin-right: 0;
+    }
   }
   .foot-msg {
     font-family: 'Roboto', sans-serif;
@@ -20,6 +30,7 @@
     color: $white;
     letter-spacing: .03em;
   }
+
   .btn {
     padding: 20px 30px;
     font-size: 45px;
@@ -31,6 +42,28 @@
     font-weight: 400;
     &:hover {
       background: $dk-blue;
+    }
+    @media ( max-width: 991px) {
+      font-size: 35px;
+      margin-bottom: 20px;
+    }
+    @media ( max-width: 480px) {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+  }
+  .terms {
+    @media ( max-width: 480px) {
+      .foot-msg {
+        text-align: center;
+        line-height: normal;
+      }
+
+    }
+  }
+  @media ( max-width: 991px) {
+    .cta {
+      text-align: center;
     }
   }
 }

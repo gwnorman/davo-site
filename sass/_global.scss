@@ -98,3 +98,9 @@
     }
   }
 }
+
+@media ( max-width: 480px) {
+  .section-title h2, .section-title h3 {
+    font-size: 22px;
+  }
+}

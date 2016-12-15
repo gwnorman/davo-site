@@ -26,9 +26,13 @@ section#products {
       font-weight: 100;
       text-align: center;
       color: $white;
+      @media (max-width: 1199px) and (min-width:991px ) {
+        font-size: 20px;
+      }
     }
     .news-title h3, .news-title h3 {
       text-transform: capitalize;
+      height: 45px;
     }
     .product-list {
       list-style: none;

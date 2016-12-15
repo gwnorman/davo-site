@@ -1362,7 +1362,7 @@ video.video-bg {
 }
 
 #services .service img {
-    height: 100px;
+    /*height: 100px;*/
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;

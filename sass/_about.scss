@@ -6,6 +6,9 @@
   .section-title {
     text-align: left;
     padding-bottom: 0px;
+    @media ( max-width: 767px) {
+      text-align: center;
+    }
   }
   .fb-page {
     -moz-box-shadow: 0px 0px 8px rgba(68,68,68,0.6);
@@ -20,14 +23,27 @@
       line-height: 35px;
       color:$med-blue;
       padding-bottom: 20px;
+      @media ( max-width: 480px) {
+        font-size: 18px;
+      }
+    }
+    @media ( max-width: 767px) {
+      text-align: center;
     }
   }
   .video-library {
     a {
       margin-right: 10px;
-
+      img {
+        @media ( max-width: 550px) {
+          width: 100px;
+        }
+      }
     }
     margin-bottom: 30px;
+    @media ( max-width: 767px) {
+      text-align: center;
+    }
   }
   .social-links {
     h5 {
@@ -44,6 +60,18 @@
       span {
         line-height: 20px;
       }
+      @media ( max-width: 767px) {
+        float: none;
+      }
+    }
+    @media ( max-width: 767px) {
+      text-align: center;
     }
   }
+  @media ( max-width: 767px) {
+    .facebook-feed {
+      display: none;
+    }
+  }
+
 }
