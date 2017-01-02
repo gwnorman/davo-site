@@ -1,9 +1,10 @@
 section#davo_testimonials {
-  background-color: #f4f4f4;
-  background-image: url(../images/testimonilas-backdrop.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100% 100%;
+  .container {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+  }
   .news-details {
     min-height: 130px;
   }
@@ -24,6 +25,5 @@ section#davo_testimonials {
       color: #333;
     }
   }
-
 }
 

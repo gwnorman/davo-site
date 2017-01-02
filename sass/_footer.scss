@@ -1,0 +1,41 @@
+// Footer updates
+footer {
+  background: #505050;
+  .top-footer {
+    #contact a {
+      &:before {
+        content: url("");
+      }
+      i {
+        position: relative;
+        top: 0px;
+        cursor: pointer;
+      }
+    }
+    .footer-links li {
+      color: #EEEEEE;
+      a {
+        color: #EEEEEE;
+      }
+    }
+
+    h4 {
+      color: #f6f6f6;
+      padding-bottom: 30px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+  }
+  p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #EEEEEE;
+    letter-spacing: 0.8px;
+  }
+  .copyright {
+    text-align: center;
+    padding: 20px 0;
+    background: #404040;
+    color: #EEEEEE;
+  }
+}

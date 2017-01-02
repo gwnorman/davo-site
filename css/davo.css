@@ -1,4 +1,7 @@
 @charset "UTF-8";
+section {
+  background-color: #eaeaea; }
+
 .responsive-img {
   max-width: 100%;
   height: auto;
@@ -12,6 +15,14 @@
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
+
+.div-bar-blue {
+  width: 100%;
+  height: 3px;
+  background-color: #29b1fd; }
+
+.border-top-blue {
+  border-top: 3px solid #29b1fd; }
 
 .pad-top-none {
   padding-top: 0; }
@@ -111,6 +122,18 @@
 @media (max-width: 480px) {
   .section-title h2, .section-title h3 {
     font-size: 22px; } }
+.desaturate:hover img {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in; }
+
 .navbar .navbar-nav > li > a {
   text-transform: none;
   font-size: 14px;
@@ -122,6 +145,9 @@
   padding: 10px !important;
   margin-top: -8px; }
 
+a.header-phone {
+  font-weight: 100; }
+
 @media (min-width: 768px) {
   .navbar-nav {
     float: left;
@@ -130,22 +156,24 @@
   height: 60px;
   margin-bottom: 25px; }
 
-#about_davo {
+#about_davo .container {
   background: #f4f4f4 !important; }
-  #about_davo .main-content {
-    padding: 50px 0; }
-  #about_davo .section-title {
-    text-align: left;
-    padding-bottom: 0px; }
-    @media (max-width: 767px) {
-      #about_davo .section-title {
-        text-align: center; } }
-  #about_davo .fb-page {
-    -moz-box-shadow: 0px 0px 8px rgba(68, 68, 68, 0.6);
-    -webkit-box-shadow: 0px 0px 8px rgba(68, 68, 68, 0.6);
-    box-shadow: 0px 0px 8px rgba(68, 68, 68, 0.6);
-    border: 1px solid #666666;
-    margin-bottom: 10px; }
+#about_davo .main-content {
+  padding: 50px 0; }
+#about_davo .section-title {
+  text-align: left;
+  padding-bottom: 0px; }
+  @media (max-width: 767px) {
+    #about_davo .section-title {
+      text-align: center; } }
+#about_davo .fb-page {
+  -moz-box-shadow: 0px 0px 8px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 0px 0px 8px rgba(68, 68, 68, 0.6);
+  box-shadow: 0px 0px 8px rgba(68, 68, 68, 0.6);
+  border: 1px solid #666666;
+  margin-bottom: 10px; }
+#about_davo .feature-video {
+  margin-bottom: 20px; }
   #about_davo .feature-video a img {
     max-width: 100%;
     height: auto;
@@ -169,52 +197,54 @@
   @media (max-width: 767px) {
     #about_davo .feature-video {
       text-align: center; } }
-  #about_davo .video-library {
-    margin-bottom: 30px; }
-    #about_davo .video-library a {
-      margin-right: 10px; }
-      @media (max-width: 550px) {
-        #about_davo .video-library a img {
-          width: 100px; } }
-      @media (max-width: 480px) {
-        #about_davo .video-library a {
-          margin-bottom: 10px;
-          display: block; } }
-    @media (max-width: 767px) {
-      #about_davo .video-library {
-        text-align: center; } }
-  #about_davo .social-links h5 {
-    color: #434343;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 24px; }
-  #about_davo .social-links a {
-    text-align: center;
-    display: inline-block;
-    float: left;
-    padding: 10px 10px; }
-    #about_davo .social-links a span {
-      line-height: 20px; }
-    @media (max-width: 767px) {
-      #about_davo .social-links a {
-        float: none; } }
+#about_davo .video-library {
+  margin-bottom: 30px; }
+  #about_davo .video-library a {
+    margin-right: 10px; }
+    @media (max-width: 550px) {
+      #about_davo .video-library a img {
+        width: 100px; } }
     @media (max-width: 480px) {
-      #about_davo .social-links a img {
-        max-width: 35px;
-        height: auto; } }
+      #about_davo .video-library a {
+        margin-bottom: 10px;
+        display: block; } }
   @media (max-width: 767px) {
-    #about_davo .social-links {
+    #about_davo .video-library {
       text-align: center; } }
+#about_davo .social-links h5 {
+  color: #434343;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px; }
+#about_davo .social-links a {
+  text-align: center;
+  display: inline-block;
+  padding: 10px 10px; }
+  #about_davo .social-links a span {
+    line-height: 20px; }
   @media (max-width: 767px) {
-    #about_davo .facebook-feed {
-      display: none; } }
+    #about_davo .social-links a {
+      float: none; } }
+  @media (max-width: 480px) {
+    #about_davo .social-links a img {
+      max-width: 35px;
+      height: auto; } }
+@media (max-width: 767px) {
+  #about_davo .social-links {
+    text-align: center; } }
+@media (max-width: 767px) {
+  #about_davo .facebook-feed {
+    display: none; } }
+#about_davo .social-links a img {
+  max-width: 75px;
+  height: auto; }
 
+#services .container {
+  background-color: #FFFFFF; }
 #services .service {
   padding: 15px; }
   #services .service .inner {
-    padding: 30px;
-    border: 1px solid #CCCCCC;
-    border-radius: 30px; }
+    padding: 20px; }
     @media (max-width: 500px) {
       #services .service .inner {
         padding: 10px; } }
@@ -222,30 +252,31 @@
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 30px; }
+#services .h3, #services h3 {
+  font-size: 18px; }
 
-section#davo_testimonials {
-  background-color: #f4f4f4;
-  background-image: url(../images/testimonilas-backdrop.jpg);
+section#davo_testimonials .container {
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% 100%; }
-  section#davo_testimonials .news-details {
-    min-height: 130px; }
-  section#davo_testimonials .news-single {
-    background-color: #fff;
-    width: 100%;
-    padding-bottom: 20px;
-    border-radius: 0px;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    border: 1px solid #CCCCCC;
-    -webkit-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
-    -moz-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
-    box-shadow: 0 0 15px rgba(68, 68, 68, 0.4); }
-  section#davo_testimonials .section-title p {
-    font-size: 16px;
-    color: #333; }
+section#davo_testimonials .news-details {
+  min-height: 130px; }
+section#davo_testimonials .news-single {
+  background-color: #fff;
+  width: 100%;
+  padding-bottom: 20px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #CCCCCC;
+  -webkit-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
+  -moz-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
+  box-shadow: 0 0 15px rgba(68, 68, 68, 0.4); }
+section#davo_testimonials .section-title p {
+  font-size: 16px;
+  color: #333; }
 
 #sign-up {
   padding: 40px 0 10px 0;
@@ -305,111 +336,105 @@ section#davo_testimonials {
     #sign-up .cta {
       text-align: center; } }
 
-section#products {
-  background-color: #f4f4f4; }
-  section#products .section-intro {
-    font-size: 16px;
-    line-height: normal; }
-  section#products .news-single {
-    background-color: #fff;
-    width: 100%;
-    padding-bottom: 20px;
-    border-radius: 0px;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    border: 1px solid #CCCCCC; }
-  section#products .news-single {
-    -webkit-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
-    -moz-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
-    box-shadow: 0 0 15px rgba(68, 68, 68, 0.4); }
+section#products .container {
+  background-color: #FFFFFF; }
+section#products .section-intro {
+  font-size: 16px;
+  line-height: normal; }
+section#products .news-single {
+  background-color: #fff;
+  width: 100%;
+  padding-bottom: 20px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #CCCCCC; }
+section#products .news-single .news-header {
+  background-color: #29b1fd;
+  padding: 25px;
+  font-size: 28px;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  color: #FFFFFF; }
+  @media (max-width: 1199px) and (min-width: 991px) {
     section#products .news-single .news-header {
-      background-color: #29b1fd;
-      padding: 25px;
-      font-size: 28px;
-      line-height: 30px;
-      text-transform: capitalize;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 100;
-      text-align: center;
-      color: #FFFFFF; }
-      @media (max-width: 1199px) and (min-width: 991px) {
-        section#products .news-single .news-header {
-          font-size: 20px; } }
-    section#products .news-single .news-title h3, section#products .news-single .news-title h3 {
-      text-transform: capitalize;
-      height: 45px; }
+      font-size: 20px; } }
+section#products .news-single .news-title h3, section#products .news-single .news-title h3 {
+  text-transform: capitalize;
+  height: 45px; }
+section#products .news-single .product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  @media (min-width: 1199px) {
     section#products .news-single .product-list {
-      list-style: none;
-      padding: 0;
-      margin: 0; }
-      @media (min-width: 1199px) {
-        section#products .news-single .product-list {
-          min-height: 290px; } }
-      @media (min-width: 992px) and (max-width: 1198px) {
-        section#products .news-single .product-list {
-          min-height: 350px; } }
-      section#products .news-single .product-list li {
-        margin-bottom: 15px; }
-      section#products .news-single .product-list li {
-        padding-left: 1em;
-        text-indent: -.7em; }
-      section#products .news-single .product-list li:before {
-        content: "• ";
-        color: #29b1fd;
-        /* or whatever color you prefer */ }
+      min-height: 290px; } }
+  @media (min-width: 992px) and (max-width: 1198px) {
+    section#products .news-single .product-list {
+      min-height: 350px; } }
+  section#products .news-single .product-list li {
+    margin-bottom: 15px; }
+  section#products .news-single .product-list li {
+    padding-left: 1em;
+    text-indent: -.7em; }
+  section#products .news-single .product-list li:before {
+    content: "• ";
+    color: #29b1fd;
+    /* or whatever color you prefer */ }
 
-section#break-line {
-  padding: 30px 0;
-  background-color: #29b1fd; }
-  section#break-line h2 {
-    font-weight: 100;
-    font-size: 30px;
-    color: #FFFFFF;
-    text-align: center;
-    padding-bottom: 0; }
+section#break-line .container {
+  background-color: #FFFFFF;
+  padding: 50px 0; }
+section#break-line h2 {
+  font-weight: 300;
+  font-size: 30px;
+  color: #29b1fd;
+  text-align: center;
+  padding-bottom: 0; }
 
-#support {
-  background-image: url(../images/white-abstract-new-wallpapers.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100% 100%; }
-  #support .section-title {
-    margin-bottom: 40px !important; }
-    #support .section-title p {
-      color: #333;
-      font-size: 16px;
-      line-height: 25px; }
-  #support .supportTable {
-    margin-bottom: 50px;
-    display: table; }
-  #support .supportRow {
-    display: table-row;
-    margin-bottom: 10px; }
-    @media (max-width: 768px) {
-      #support .supportRow {
-        text-align: center;
-        display: block;
-        width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 25px; } }
-  #support .supportCell {
+#support .container {
+  border-top: 1px solid #EEE;
+  background-color: #f6fcfe; }
+#support .section-title {
+  margin-bottom: 40px !important; }
+  #support .section-title p {
     color: #333;
-    display: table-cell;
-    margin-bottom: 20px;
-    vertical-align: middle; }
-    #support .supportCell p {
-      top: 50%;
-      color: #333; }
-    @media (max-width: 768px) {
-      #support .supportCell {
-        margin: auto;
-        margin-bottom: 30px; } }
-  #support .support-documents {
-    display: none; }
-  #support .support-doc-title {
-    text-align: center; }
+    font-size: 16px;
+    line-height: 25px; }
+#support .supportTable {
+  margin-bottom: 50px;
+  display: table; }
+#support .supportRow {
+  display: table-row;
+  margin-bottom: 10px; }
+  @media (max-width: 768px) {
+    #support .supportRow {
+      text-align: center;
+      display: block;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 25px; } }
+#support .supportCell {
+  color: #333;
+  display: table-cell;
+  margin-bottom: 20px;
+  vertical-align: middle; }
+  #support .supportCell p {
+    top: 50%;
+    color: #333; }
+  @media (max-width: 768px) {
+    #support .supportCell {
+      margin: auto;
+      margin-bottom: 30px; } }
+#support .support-documents {
+  display: none; }
+#support .support-doc-title {
+  text-align: center; }
 
 @media (max-width: 768px) {
   .pdf-txt.supportCell {
@@ -481,3 +506,31 @@ section#break-line {
   .faq-list li strong {
     display: block;
     margin-bottom: 10px; }
+
+footer {
+  background: #505050; }
+  footer .top-footer #contact a:before {
+    content: url(""); }
+  footer .top-footer #contact a i {
+    position: relative;
+    top: 0px;
+    cursor: pointer; }
+  footer .top-footer .footer-links li {
+    color: #EEEEEE; }
+    footer .top-footer .footer-links li a {
+      color: #EEEEEE; }
+  footer .top-footer h4 {
+    color: #f6f6f6;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px; }
+  footer p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #EEEEEE;
+    letter-spacing: 0.8px; }
+  footer .copyright {
+    text-align: center;
+    padding: 20px 0;
+    background: #404040;
+    color: #EEEEEE; }

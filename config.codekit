@@ -2,6 +2,17 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19127",
 "files": {
+	"\/2015-07-07 13.51.47.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 220311,
+		"inputAbbreviatedPath": "\/2015-07-07 13.51.47.jpeg",
+		"outputAbbreviatedPath": "\/2015-07-07 13.51.47.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/404.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -121,6 +132,26 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/home_back-up.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/home_back-up.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/image001.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 611924,
+		"inputAbbreviatedPath": "\/image001.jpg",
+		"outputAbbreviatedPath": "\/image001.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/apple-touch-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -128,6 +159,17 @@
 		"initialSize": 11296,
 		"inputAbbreviatedPath": "\/images\/apple-touch-icon.png",
 		"outputAbbreviatedPath": "\/images\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/banner-59seconds.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 229060,
+		"inputAbbreviatedPath": "\/images\/banner-59seconds.jpg",
+		"outputAbbreviatedPath": "\/images\/banner-59seconds.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -396,6 +438,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/pos\/pos-square.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4912,
+		"inputAbbreviatedPath": "\/images\/pos\/pos-square.png",
+		"outputAbbreviatedPath": "\/images\/pos\/pos-square.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/products\/prod-img-franchise.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -425,6 +478,72 @@
 		"initialSize": 113874,
 		"inputAbbreviatedPath": "\/images\/products\/prod-img-navigate.jpg",
 		"outputAbbreviatedPath": "\/images\/products\/prod-img-navigate.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/social-facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5509,
+		"inputAbbreviatedPath": "\/images\/social-facebook.png",
+		"outputAbbreviatedPath": "\/images\/social-facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/social-in.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6161,
+		"inputAbbreviatedPath": "\/images\/social-in.png",
+		"outputAbbreviatedPath": "\/images\/social-in.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/social-insta.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11706,
+		"inputAbbreviatedPath": "\/images\/social-insta.png",
+		"outputAbbreviatedPath": "\/images\/social-insta.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/social-twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7557,
+		"inputAbbreviatedPath": "\/images\/social-twitter.png",
+		"outputAbbreviatedPath": "\/images\/social-twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/social-vimeo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8064,
+		"inputAbbreviatedPath": "\/images\/social-vimeo.png",
+		"outputAbbreviatedPath": "\/images\/social-vimeo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/social-youtube.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8361,
+		"inputAbbreviatedPath": "\/images\/social-youtube.png",
+		"outputAbbreviatedPath": "\/images\/social-youtube.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -861,6 +980,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_faqs.scss",
 		"outputAbbreviatedPath": "\/css\/_faqs.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/_footer.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_footer.scss",
+		"outputAbbreviatedPath": "\/css\/_footer.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

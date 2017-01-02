@@ -1,10 +1,13 @@
 section#break-line {
-  padding: 30px 0;
-  background-color: $blue;
+  .container {
+    background-color: $white;
+    padding: 50px 0;
+  }
+
   h2 {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 30px;
-    color: $white;
+    color: $blue;
     text-align: center;
     padding-bottom: 0;
   }

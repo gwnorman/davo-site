@@ -1,8 +1,13 @@
 #support {
-  background-image: url(../images/white-abstract-new-wallpapers.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100% 100%;
+  //background-image: url(../images/white-abstract-new-wallpapers.jpg);
+  //background-repeat: no-repeat;
+  //background-position: top center;
+  //background-size: 100% 100%;
+  .container {
+    border-top: 1px solid #EEE ;
+    background-color: #f6fcfe;
+  }
+
   .section-title {
     p {
       color: #333;

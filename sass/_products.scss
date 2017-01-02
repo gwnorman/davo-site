@@ -1,5 +1,8 @@
 section#products {
-  background-color: $grey;
+  .container {
+    background-color: $white;
+  }
+  //background-color: $grey;
   .section-intro {
     font-size: 16px;
     line-height: normal;
@@ -15,7 +18,7 @@ section#products {
     border: 1px solid $med-grey;
   }
   .news-single {
-    @include box-shadow(0,0,15px,rgba(68,68,68,0.4));
+    //@include box-shadow(0,0,15px,rgba(68,68,68,0.4));
     .news-header {
       background-color: $blue;
       padding: 25px;
