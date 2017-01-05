@@ -1,8 +1,14 @@
 // Footer updates
 footer {
-  background: #505050;
+  background-color: #e6f5fd;
+  .top-footer {
+    .container {
+      background: #f7f7f7;
+    }
+  }
   .top-footer {
     #contact a {
+      color: #7e7f7f;
       &:before {
         content: url("");
       }
@@ -13,14 +19,14 @@ footer {
       }
     }
     .footer-links li {
-      color: #EEEEEE;
+      color: #7e7f7f;
       a {
-        color: #EEEEEE;
+        color: #7e7f7f;
       }
     }
 
     h4 {
-      color: #f6f6f6;
+      color: #6c6c6c;
       padding-bottom: 30px;
       text-transform: uppercase;
       letter-spacing: 0.8px;
@@ -29,13 +35,22 @@ footer {
   p {
     font-size: 12px;
     line-height: 20px;
-    color: #EEEEEE;
+    color: #666666;
     letter-spacing: 0.8px;
   }
   .copyright {
     text-align: center;
-    padding: 20px 0;
-    background: #404040;
-    color: #EEEEEE;
+    padding: 0;
+    background: #e6f5fd;
+    .container {
+      text-align: center;
+      padding: 20px 0;
+      background: #FFFFFF;
+      color: #cccccc;
+    }
+
+  }
+  .about {
+    padding-left: 40px;
   }
 }

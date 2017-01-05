@@ -96,6 +96,7 @@
         }
       }
     }
+
     @media ( max-width: 767px) {
       text-align: center;
     }
@@ -115,3 +116,24 @@
   }
 
 }
+
+.social-media-icons {
+  .container {
+    background-color: #FFFFFF;
+    padding: 15px 0;
+    border-top: 1px solid #EEEEEE;
+  }
+  .social-links-bttm {
+    text-align: center;
+    a {
+      color: #7e7f7f;
+      line-height: 50px;
+      font-size: 24px;
+      margin: 0 10px;
+      &:hover {
+        color: #29b2fe;
+      }
+    }
+  }
+}
+

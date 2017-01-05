@@ -1,0 +1,1069 @@
+<style>
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-inner .item.active.left {
+        transition-property: opacity;
+        -webkit-transition: 0.4s ease-in-out opacity;
+        -o-transition: 0.4s ease-in-out opacity;
+        transition: 0.4s ease-in-out opacity;
+    }
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-inner .active.left,
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-inner .active.right {
+        opacity: 0;
+    }
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-inner .item,
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-inner .active,
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-inner .next.left,
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-inner .prev.right {
+        opacity: 1;
+    }
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-inner .item.active.left {
+        z-index: 3;
+    }
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-inner .item,
+    {
+        z-index: 2;
+        left: 0;
+    }
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-inner .next,
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-inner .prev,
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-inner .active.left,
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-inner .active.right {
+        left: 0;
+    }
+
+    .header-carousel .section-wrapper #main-carousel .carousel-fade .carousel-control {
+        z-index: 2;
+    }
+
+    .header-carousel .section-wrapper .container-wrapper {
+        z-index: 5;
+    }
+    .header-carousel .section-wrapper {
+        position: relative;
+        background-color: #0c4375;
+        height: 400px;
+    }
+    .header-carousel .section-wrapper .text-wrapper {
+        position: relative;
+        z-index: 1;
+    }
+    .header-carousel .section-wrapper .outside .text-wrapper {
+        display: none;
+    }
+    @media (min-width: 768px) {
+        .header-carousel .section-wrapper {
+            height: 538px;
+        }
+    }
+    .header-carousel .section-wrapper .campaign-wrapper {
+        height: 818px;
+    }
+    @media (min-width: 501px) {
+        .header-carousel .section-wrapper .campaign-wrapper {
+            height: 800px;
+        }
+    }
+    @media (min-width: 992px) {
+        .header-carousel .section-wrapper .campaign-wrapper {
+            height: 610px;
+        }
+    }
+    .header-carousel .section-wrapper .campaign-wrapper.promote.next,
+    .header-carousel .section-wrapper .campaign-wrapper.promote.active {
+        background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/promote-retina.jpg') no-repeat top center / auto 818px;
+    }
+    @media (min-width: 501px) {
+        .header-carousel .section-wrapper .campaign-wrapper.promote.next,
+        .header-carousel .section-wrapper .campaign-wrapper.promote.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/promote-retina.jpg') no-repeat top center / auto 800px;
+        }
+    }
+    @media (min-width: 992px) {
+        .header-carousel .section-wrapper .campaign-wrapper.promote.next,
+        .header-carousel .section-wrapper .campaign-wrapper.promote.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/promote-retina.jpg') no-repeat top center;
+        }
+    }
+    .header-carousel .section-wrapper .campaign-wrapper.bca.next,
+    .header-carousel .section-wrapper .campaign-wrapper.bca.active {
+        background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/bca-retina.jpg') no-repeat top center / auto 818px;
+    }
+    @media (min-width: 501px) {
+        .header-carousel .section-wrapper .campaign-wrapper.bca.next,
+        .header-carousel .section-wrapper .campaign-wrapper.bca.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/bca-retina.jpg') no-repeat top center / auto 800px;
+        }
+    }
+    @media (min-width: 992px) {
+        .header-carousel .section-wrapper .campaign-wrapper.bca.next,
+        .header-carousel .section-wrapper .campaign-wrapper.bca.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/bca-retina.jpg') no-repeat top center;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+        .header-carousel .section-wrapper #main-carousel {
+            font-family: 'supportsRetina';
+        }
+    }
+    .header-carousel .section-wrapper .container-wrapper {
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    .header-carousel .section-wrapper .container-wrapper .container {
+        text-align: center;
+    }
+    @media (min-width: 768px) {
+        .header-carousel .section-wrapper .container-wrapper .container {
+            width: 752px;
+        }
+    }
+    @media (min-width: 900px) {
+        .header-carousel .section-wrapper .container-wrapper .container {
+            width: auto;
+        }
+    }
+    .header-carousel .section-wrapper .container-wrapper .container h1 {
+        margin: 94px auto 0;
+        color: white;
+        padding: 0 10px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 103%;
+    }
+    .header-carousel .section-wrapper .container-wrapper .container h1 img {
+        width: 71px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    @media (min-width: 768px) {
+        .header-carousel .section-wrapper .container-wrapper .container h1 img {
+            width: 92px;
+            display: inline;
+            vertical-align: middle;
+        }
+    }
+    .header-carousel .section-wrapper .container-wrapper .container h1 span {
+        display: inline-block;
+        text-align: left;
+        position: relative;
+        top: 8px;
+        left: 13px;
+    }
+    @media (min-width: 768px) {
+        .header-carousel .section-wrapper .container-wrapper .container h1 span {
+            display: inline;
+            top: 8px;
+            left: -6px;
+        }
+        .header-carousel .section-wrapper .container-wrapper .container h1 span br {
+            display: none;
+        }
+    }
+    @media (min-width: 768px) {
+        .header-carousel .section-wrapper .container-wrapper .container h1 {
+            margin-top: 178px;
+            font-size: 59.36px;
+            line-height: 37%;
+        }
+    }
+    @media (min-width: 1108px) {
+        .header-carousel .section-wrapper .container-wrapper .container h1 {
+            font-size: 73px;
+            line-height: 37%;
+        }
+    }
+    .header-carousel .section-wrapper .container-wrapper .container p {
+        color: #08bbff;
+        font-size: 16px;
+        margin: 27px auto 0;
+        line-height: 28px;
+        padding: 0 40px;
+    }
+    @media (min-width: 992px) {
+        .header-carousel .section-wrapper .container-wrapper .container p {
+            width: 520px;
+            margin: 32px 0 0 0;
+            font-size: 20px;
+            line-height: 30px;
+            padding: 0;
+        }
+    }
+    .header-carousel .section-wrapper .container-wrapper .container .text-wrapper.change-1 h1 {
+        margin: 82px auto 0;
+        font-size: 21px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        line-height: normal;
+        padding: 0;
+    }
+    @media only screen and (min-width: 768px) {
+        .header-carousel .section-wrapper .container-wrapper .container .text-wrapper.change-1 h1 {
+            margin: 177px auto 0;
+            font-size: 40px;
+        }
+    }
+    .header-carousel .section-wrapper .container-wrapper .container .text-wrapper.change-1 h2 {
+        font-size: 16px;
+        color: #ffffff;
+        letter-spacing: 0.01em;
+        line-height: normal;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        margin-top: 6px;
+    }
+    @media only screen and (min-width: 768px) {
+        .header-carousel .section-wrapper .container-wrapper .container .text-wrapper.change-1 h2 {
+            font-size: 24px;
+            margin-top: 12px;
+        }
+    }
+    .header-carousel .section-wrapper .container-wrapper .button-wrapper {
+        margin: 0 auto;
+        text-align: center;
+    }
+    @media (max-width: 767px) {
+        .header-carousel .section-wrapper .container-wrapper .button-wrapper {
+            width: 100%;
+            top: 175px;
+        }
+    }
+    @media (min-width: 768px) {
+        .header-carousel .section-wrapper .container-wrapper .button-wrapper {
+            margin: 11px auto;
+        }
+    }
+    .header-carousel .section-wrapper .container-wrapper .button-wrapper a {
+        text-decoration: none;
+    }
+    .header-carousel .section-wrapper .container-wrapper p.button {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 19px;
+        width: 242px;
+        height: auto;
+        text-align: center;
+        border-radius: 5px;
+        display: block;
+        margin: 0 auto;
+        letter-spacing: 0.01em;
+        margin-top: 15px;
+    }
+    @media (min-width: 768px) {
+        .header-carousel .section-wrapper .container-wrapper p.button {
+            width: 244px;
+            display: inline-block;
+            margin-top: 11px;
+        }
+    }
+    .header-carousel .section-wrapper .container-wrapper p.button.tour a {
+        color: white;
+    }
+    @media (min-width: 768px) {
+        .header-carousel .section-wrapper .container-wrapper p.button.tour {
+            margin-right: 26px;
+        }
+    }
+    @media (max-width: 767px) {
+        .header-carousel .section-wrapper .container-wrapper p.button.btn-white {
+            margin-top: 20px;
+        }
+    }
+    .header-carousel .section-wrapper .container-wrapper p.button.btn-white img {
+        position: relative;
+        display: inline-block;
+        top: -2px;
+        left: 2px;
+        width: 18px;
+    }
+    .header-carousel .section-wrapper .container-wrapper p.button a {
+        width: 100%;
+        padding: 10px 0;
+        display: block;
+        height: 41px;
+        font-size: 16px;
+        letter-spacing: 0.015em;
+        text-indent: 10px;
+        line-height: normal;
+    }
+    @media (min-width: 768px) {
+        .header-carousel .section-wrapper .container-wrapper p.button a {
+            height: 42px;
+            font-size: 16px;
+            line-height: 24px;
+            text-indent: 3px;
+        }
+    }
+    .header-carousel .section-wrapper .carousel .loading {
+        width: 46px;
+        height: 46px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background: #000 url(http://www.booker.com/sites/default/themes/booker_new/images/ajax-loader.gif) no-repeat center center;
+        margin: -23px 0px 0px -23px;
+        z-index: 100;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        opacity: 0.7;
+    }
+    .header-carousel .section-wrapper .carousel.slide .item {
+        height: 400px;
+    }
+    @media (min-width: 768px) {
+        .header-carousel .section-wrapper .carousel.slide .item {
+            height: 538px;
+        }
+    }
+    .header-carousel .section-wrapper .carousel-inner > .item {
+        -webkit-transition: 0.4s ease-in-out left;
+        -o-transition: 0.4s ease-in-out left;
+        transition: 0.4s ease-in-out left;
+    }
+    @media all and (max-width: 767px) {
+        .header-carousel .section-wrapper #barbershop-banner.next,
+        .header-carousel .section-wrapper #barbershop-banner.active,
+        .header-carousel .section-wrapper .barbershop-banner.next,
+        .header-carousel .section-wrapper .barbershop-banner.active,
+        .header-carousel .section-wrapper #barbershop-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/barbershop-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),(min-resolution: 192dpi) and (max-width: 767px) {
+        .header-carousel .section-wrapper #barbershop-banner.next,
+        .header-carousel .section-wrapper #barbershop-banner.active,
+        .header-carousel .section-wrapper .barbershop-banner.next,
+        .header-carousel .section-wrapper .barbershop-banner.active,
+        .header-carousel .section-wrapper #barbershop-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/barbershop-retina-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (min-width: 768px) {
+        .header-carousel .section-wrapper #barbershop-banner.next,
+        .header-carousel .section-wrapper #barbershop-banner.active,
+        .header-carousel .section-wrapper .barbershop-banner.next,
+        .header-carousel .section-wrapper .barbershop-banner.active,
+        .header-carousel .section-wrapper #barbershop-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/barbershop-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),(min-resolution: 192dpi) and (min-width: 768px) {
+        .header-carousel .section-wrapper #barbershop-banner.next,
+        .header-carousel .section-wrapper #barbershop-banner.active,
+        .header-carousel .section-wrapper .barbershop-banner.next,
+        .header-carousel .section-wrapper .barbershop-banner.active,
+        .header-carousel .section-wrapper #barbershop-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/barbershop-retina-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    @media all and (max-width: 767px) {
+        .header-carousel .section-wrapper #salon2-banner.next,
+        .header-carousel .section-wrapper #salon2-banner.active,
+        .header-carousel .section-wrapper .salon2-banner.next,
+        .header-carousel .section-wrapper .salon2-banner.active,
+        .header-carousel .section-wrapper #salon2-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/salon2-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),(min-resolution: 192dpi) and (max-width: 767px) {
+        .header-carousel .section-wrapper #salon2-banner.next,
+        .header-carousel .section-wrapper #salon2-banner.active,
+        .header-carousel .section-wrapper .salon2-banner.next,
+        .header-carousel .section-wrapper .salon2-banner.active,
+        .header-carousel .section-wrapper #salon2-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/salon2-retina-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (min-width: 768px) {
+        .header-carousel .section-wrapper #salon2-banner.next,
+        .header-carousel .section-wrapper #salon2-banner.active,
+        .header-carousel .section-wrapper .salon2-banner.next,
+        .header-carousel .section-wrapper .salon2-banner.active,
+        .header-carousel .section-wrapper #salon2-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/salon2-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),(min-resolution: 192dpi) and (min-width: 768px) {
+        .header-carousel .section-wrapper #salon2-banner.next,
+        .header-carousel .section-wrapper #salon2-banner.active,
+        .header-carousel .section-wrapper .salon2-banner.next,
+        .header-carousel .section-wrapper .salon2-banner.active,
+        .header-carousel .section-wrapper #salon2-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/salon2-retina-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    @media all and (max-width: 767px) {
+        .header-carousel .section-wrapper #genericshop-banner.next,
+        .header-carousel .section-wrapper #genericshop-banner.active,
+        .header-carousel .section-wrapper .genericshop-banner.next,
+        .header-carousel .section-wrapper .genericshop-banner.active,
+        .header-carousel .section-wrapper #genericshop-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/genericshop-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),(min-resolution: 192dpi) and (max-width: 767px) {
+        .header-carousel .section-wrapper #genericshop-banner.next,
+        .header-carousel .section-wrapper #genericshop-banner.active,
+        .header-carousel .section-wrapper .genericshop-banner.next,
+        .header-carousel .section-wrapper .genericshop-banner.active,
+        .header-carousel .section-wrapper #genericshop-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/genericshop-retina-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (min-width: 768px) {
+        .header-carousel .section-wrapper #genericshop-banner.next,
+        .header-carousel .section-wrapper #genericshop-banner.active,
+        .header-carousel .section-wrapper .genericshop-banner.next,
+        .header-carousel .section-wrapper .genericshop-banner.active,
+        .header-carousel .section-wrapper #genericshop-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/genericshop-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),(min-resolution: 192dpi) and (min-width: 768px) {
+        .header-carousel .section-wrapper #genericshop-banner.next,
+        .header-carousel .section-wrapper #genericshop-banner.active,
+        .header-carousel .section-wrapper .genericshop-banner.next,
+        .header-carousel .section-wrapper .genericshop-banner.active,
+        .header-carousel .section-wrapper #genericshop-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/genericshop-retina-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    @media all and (max-width: 767px) {
+        .header-carousel .section-wrapper #spa2-banner.next,
+        .header-carousel .section-wrapper #spa2-banner.active,
+        .header-carousel .section-wrapper .spa2-banner.next,
+        .header-carousel .section-wrapper .spa2-banner.active,
+        .header-carousel .section-wrapper #spa2-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/spa2-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),(min-resolution: 192dpi) and (max-width: 767px) {
+        .header-carousel .section-wrapper #spa2-banner.next,
+        .header-carousel .section-wrapper #spa2-banner.active,
+        .header-carousel .section-wrapper .spa2-banner.next,
+        .header-carousel .section-wrapper .spa2-banner.active,
+        .header-carousel .section-wrapper #spa2-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/spa2-retina-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (min-width: 768px) {
+        .header-carousel .section-wrapper #spa2-banner.next,
+        .header-carousel .section-wrapper #spa2-banner.active,
+        .header-carousel .section-wrapper .spa2-banner.next,
+        .header-carousel .section-wrapper .spa2-banner.active,
+        .header-carousel .section-wrapper #spa2-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/spa2-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),(min-resolution: 192dpi) and (min-width: 768px) {
+        .header-carousel .section-wrapper #spa2-banner.next,
+        .header-carousel .section-wrapper #spa2-banner.active,
+        .header-carousel .section-wrapper .spa2-banner.next,
+        .header-carousel .section-wrapper .spa2-banner.active,
+        .header-carousel .section-wrapper #spa2-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/spa2-retina-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    @media all and (max-width: 767px) {
+        .header-carousel .section-wrapper #bikerepair-banner.next,
+        .header-carousel .section-wrapper #bikerepair-banner.active,
+        .header-carousel .section-wrapper .bikerepair-banner.next,
+        .header-carousel .section-wrapper .bikerepair-banner.active,
+        .header-carousel .section-wrapper #bikerepair-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/bikerepair-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),(min-resolution: 192dpi) and (max-width: 767px) {
+        .header-carousel .section-wrapper #bikerepair-banner.next,
+        .header-carousel .section-wrapper #bikerepair-banner.active,
+        .header-carousel .section-wrapper .bikerepair-banner.next,
+        .header-carousel .section-wrapper .bikerepair-banner.active,
+        .header-carousel .section-wrapper #bikerepair-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/bikerepair-retina-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (min-width: 768px) {
+        .header-carousel .section-wrapper #bikerepair-banner.next,
+        .header-carousel .section-wrapper #bikerepair-banner.active,
+        .header-carousel .section-wrapper .bikerepair-banner.next,
+        .header-carousel .section-wrapper .bikerepair-banner.active,
+        .header-carousel .section-wrapper #bikerepair-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/bikerepair-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),(min-resolution: 192dpi) and (min-width: 768px) {
+        .header-carousel .section-wrapper #bikerepair-banner.next,
+        .header-carousel .section-wrapper #bikerepair-banner.active,
+        .header-carousel .section-wrapper .bikerepair-banner.next,
+        .header-carousel .section-wrapper .bikerepair-banner.active,
+        .header-carousel .section-wrapper #bikerepair-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/bikerepair-retina-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    @media all and (max-width: 767px) {
+        .header-carousel .section-wrapper #carrepair-banner.next,
+        .header-carousel .section-wrapper #carrepair-banner.active,
+        .header-carousel .section-wrapper .carrepair-banner.next,
+        .header-carousel .section-wrapper .carrepair-banner.active,
+        .header-carousel .section-wrapper #carrepair-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/carrepair-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),(min-resolution: 192dpi) and (max-width: 767px) {
+        .header-carousel .section-wrapper #carrepair-banner.next,
+        .header-carousel .section-wrapper #carrepair-banner.active,
+        .header-carousel .section-wrapper .carrepair-banner.next,
+        .header-carousel .section-wrapper .carrepair-banner.active,
+        .header-carousel .section-wrapper #carrepair-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/carrepair-retina-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (min-width: 768px) {
+        .header-carousel .section-wrapper #carrepair-banner.next,
+        .header-carousel .section-wrapper #carrepair-banner.active,
+        .header-carousel .section-wrapper .carrepair-banner.next,
+        .header-carousel .section-wrapper .carrepair-banner.active,
+        .header-carousel .section-wrapper #carrepair-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/carrepair-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),(min-resolution: 192dpi) and (min-width: 768px) {
+        .header-carousel .section-wrapper #carrepair-banner.next,
+        .header-carousel .section-wrapper #carrepair-banner.active,
+        .header-carousel .section-wrapper .carrepair-banner.next,
+        .header-carousel .section-wrapper .carrepair-banner.active,
+        .header-carousel .section-wrapper #carrepair-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/carrepair-retina-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    @media all and (max-width: 767px) {
+        .header-carousel .section-wrapper #tattoo-banner.next,
+        .header-carousel .section-wrapper #tattoo-banner.active,
+        .header-carousel .section-wrapper .tattoo-banner.next,
+        .header-carousel .section-wrapper .tattoo-banner.active,
+        .header-carousel .section-wrapper #tattoo-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/tattoo-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),(min-resolution: 192dpi) and (max-width: 767px) {
+        .header-carousel .section-wrapper #tattoo-banner.next,
+        .header-carousel .section-wrapper #tattoo-banner.active,
+        .header-carousel .section-wrapper .tattoo-banner.next,
+        .header-carousel .section-wrapper .tattoo-banner.active,
+        .header-carousel .section-wrapper #tattoo-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/tattoo-retina-sm.jpg') no-repeat center top;
+            background-size: auto 400px;
+        }
+    }
+    @media all and (min-width: 768px) {
+        .header-carousel .section-wrapper #tattoo-banner.next,
+        .header-carousel .section-wrapper #tattoo-banner.active,
+        .header-carousel .section-wrapper .tattoo-banner.next,
+        .header-carousel .section-wrapper .tattoo-banner.active,
+        .header-carousel .section-wrapper #tattoo-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tattoo-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),(min-resolution: 192dpi) and (min-width: 768px) {
+        .header-carousel .section-wrapper #tattoo-banner.next,
+        .header-carousel .section-wrapper #tattoo-banner.active,
+        .header-carousel .section-wrapper .tattoo-banner.next,
+        .header-carousel .section-wrapper .tattoo-banner.active,
+        .header-carousel .section-wrapper #tattoo-banner.second {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tattoo-retina-lg.jpg') no-repeat center top;
+            background-size: 1300px 538px;
+        }
+    }
+    .header-carousel .rtp-hero {
+        position: relative;
+        background-color: #0c4375;
+        height: 818px;
+    }
+    .header-carousel .rtp-hero .text-wrapper {
+        position: relative;
+        z-index: 1;
+    }
+    .header-carousel .rtp-hero .outside .text-wrapper {
+        display: none;
+    }
+    @media (min-width: 501px) {
+        .header-carousel .rtp-hero {
+            height: 800px;
+        }
+    }
+    @media (min-width: 992px) {
+        .header-carousel .rtp-hero {
+            height: 610px;
+        }
+    }
+    .header-carousel .rtp-hero .campaign-wrapper {
+        height: 818px;
+    }
+    @media (min-width: 501px) {
+        .header-carousel .rtp-hero .campaign-wrapper {
+            height: 800px;
+        }
+    }
+    @media (min-width: 992px) {
+        .header-carousel .rtp-hero .campaign-wrapper {
+            height: 610px;
+        }
+    }
+    .header-carousel .rtp-hero .campaign-wrapper.promote.next,
+    .header-carousel .rtp-hero .campaign-wrapper.promote.active {
+        background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/promote-retina.jpg') no-repeat top center / auto 818px;
+    }
+    @media (min-width: 501px) {
+        .header-carousel .rtp-hero .campaign-wrapper.promote.next,
+        .header-carousel .rtp-hero .campaign-wrapper.promote.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/promote-retina.jpg') no-repeat top center / auto 800px;
+        }
+    }
+    @media (min-width: 992px) {
+        .header-carousel .rtp-hero .campaign-wrapper.promote.next,
+        .header-carousel .rtp-hero .campaign-wrapper.promote.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/promote-retina.jpg') no-repeat top center;
+        }
+    }
+    .header-carousel .rtp-hero .campaign-wrapper.bca.next,
+    .header-carousel .rtp-hero .campaign-wrapper.bca.active {
+        background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/bca-retina.jpg') no-repeat top center / auto 818px;
+    }
+    @media (min-width: 501px) {
+        .header-carousel .rtp-hero .campaign-wrapper.bca.next,
+        .header-carousel .rtp-hero .campaign-wrapper.bca.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/bca-retina.jpg') no-repeat top center / auto 800px;
+        }
+    }
+    @media (min-width: 992px) {
+        .header-carousel .rtp-hero .campaign-wrapper.bca.next,
+        .header-carousel .rtp-hero .campaign-wrapper.bca.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/bca-retina.jpg') no-repeat top center;
+        }
+    }
+    .header-carousel .rtp-hero .container {
+        text-align: center;
+        width: 100%;
+    }
+    @media (min-width: 992px) {
+        .header-carousel .rtp-hero .container {
+            padding-top: 95px;
+            text-align: left;
+            width: 940px;
+        }
+    }
+    @media (min-width: 1200px) {
+        .header-carousel .rtp-hero .container {
+            padding-top: 95px;
+            width: 1096px;
+        }
+    }
+    .header-carousel .rtp-hero .container.outside {
+        position: absolute;
+        top: 0;
+    }
+    @media (min-width: 992px) {
+        .header-carousel .rtp-hero .container.outside {
+            width: inherit;
+            text-align: left;
+            left: 50%;
+            margin-left: -470px;
+        }
+    }
+    @media (min-width: 1200px) {
+        .header-carousel .rtp-hero .container.outside {
+            width: inherit;
+            text-align: left;
+            left: 50%;
+            margin-left: -548px;
+        }
+    }
+    .header-carousel .rtp-hero .container h1 {
+        margin: 64px auto 0;
+        color: white;
+        font-size: 33px;
+        padding: 0 10px;
+        line-height: 53px;
+    }
+    @media (min-width: 655px) {
+        .header-carousel .rtp-hero .container h1 {
+            font-size: 43px;
+        }
+    }
+    @media (min-width: 992px) {
+        .header-carousel .rtp-hero .container h1 {
+            margin: 0;
+            width: 600px;
+            padding: 0;
+        }
+    }
+    .header-carousel .rtp-hero .container p {
+        color: #08bbff;
+        font-size: 16px;
+        margin: 27px auto 0;
+        line-height: 28px;
+        padding: 0 40px;
+    }
+    @media (min-width: 992px) {
+        .header-carousel .rtp-hero .container p {
+            width: 520px;
+            margin: 32px 0 0 0;
+            font-size: 20px;
+            line-height: 30px;
+            padding: 0;
+        }
+    }
+    .header-carousel .rtp-hero .carousel .loading {
+        width: 46px;
+        height: 46px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background: #000 url(http://www.booker.com/sites/default/themes/booker_new/images/ajax-loader.gif) no-repeat center center;
+        margin: -23px 0px 0px -23px;
+        z-index: 100;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        opacity: 0.7;
+    }
+    .header-carousel .rtp-hero .carousel.slide .item {
+        height: 818px;
+    }
+    @media (min-width: 501px) {
+        .header-carousel .rtp-hero .carousel.slide .item {
+            height: 800px;
+        }
+    }
+    @media (min-width: 992px) {
+        .header-carousel .rtp-hero .carousel.slide .item {
+            height: 610px;
+        }
+    }
+    @media all and (max-width: 500px) {
+        .header-carousel .rtp-hero #pet-banner.next,
+        .header-carousel .rtp-hero #pet-banner.active,
+        .header-carousel .rtp-hero .pet-banner.next,
+        .header-carousel .rtp-hero .pet-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/pet-retina.jpg') no-repeat center bottom;
+            background-size: contain;
+        }
+    }
+    @media all and (min-width: 501px) {
+        .header-carousel .rtp-hero #pet-banner.next,
+        .header-carousel .rtp-hero #pet-banner.active,
+        .header-carousel .rtp-hero .pet-banner.next,
+        .header-carousel .rtp-hero .pet-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/pet-retina.jpg') no-repeat center bottom;
+            background-size: 1000px 800px;
+        }
+    }
+    @media all and (min-width: 992px) {
+        .header-carousel .rtp-hero #pet-banner.next,
+        .header-carousel .rtp-hero #pet-banner.active,
+        .header-carousel .rtp-hero .pet-banner.next,
+        .header-carousel .rtp-hero .pet-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/pet-retina.jpg') no-repeat center top;
+            background-size: 2400px 610px;
+        }
+    }
+    @media all and (max-width: 500px) {
+        .header-carousel .rtp-hero #office-banner.next,
+        .header-carousel .rtp-hero #office-banner.active,
+        .header-carousel .rtp-hero .office-banner.next,
+        .header-carousel .rtp-hero .office-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/office-retina.jpg') no-repeat center bottom;
+            background-size: contain;
+        }
+    }
+    @media all and (min-width: 501px) {
+        .header-carousel .rtp-hero #office-banner.next,
+        .header-carousel .rtp-hero #office-banner.active,
+        .header-carousel .rtp-hero .office-banner.next,
+        .header-carousel .rtp-hero .office-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/office-retina.jpg') no-repeat center bottom;
+            background-size: 1000px 800px;
+        }
+    }
+    @media all and (min-width: 992px) {
+        .header-carousel .rtp-hero #office-banner.next,
+        .header-carousel .rtp-hero #office-banner.active,
+        .header-carousel .rtp-hero .office-banner.next,
+        .header-carousel .rtp-hero .office-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/office-retina.jpg') no-repeat center top;
+            background-size: 2400px 610px;
+        }
+    }
+    @media all and (max-width: 500px) {
+        .header-carousel .rtp-hero #salon-banner.next,
+        .header-carousel .rtp-hero #salon-banner.active,
+        .header-carousel .rtp-hero .salon-banner.next,
+        .header-carousel .rtp-hero .salon-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/salon-retina.jpg') no-repeat center bottom;
+            background-size: contain;
+        }
+    }
+    @media all and (min-width: 501px) {
+        .header-carousel .rtp-hero #salon-banner.next,
+        .header-carousel .rtp-hero #salon-banner.active,
+        .header-carousel .rtp-hero .salon-banner.next,
+        .header-carousel .rtp-hero .salon-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/salon-retina.jpg') no-repeat center bottom;
+            background-size: 1000px 800px;
+        }
+    }
+    @media all and (min-width: 992px) {
+        .header-carousel .rtp-hero #salon-banner.next,
+        .header-carousel .rtp-hero #salon-banner.active,
+        .header-carousel .rtp-hero .salon-banner.next,
+        .header-carousel .rtp-hero .salon-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/salon-retina.jpg') no-repeat center top;
+            background-size: 2400px 610px;
+        }
+    }
+    @media all and (max-width: 500px) {
+        .header-carousel .rtp-hero #spa-banner.next,
+        .header-carousel .rtp-hero #spa-banner.active,
+        .header-carousel .rtp-hero .spa-banner.next,
+        .header-carousel .rtp-hero .spa-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/spa-retina.jpg') no-repeat center bottom;
+            background-size: contain;
+        }
+    }
+    @media all and (min-width: 501px) {
+        .header-carousel .rtp-hero #spa-banner.next,
+        .header-carousel .rtp-hero #spa-banner.active,
+        .header-carousel .rtp-hero .spa-banner.next,
+        .header-carousel .rtp-hero .spa-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/spa-retina.jpg') no-repeat center bottom;
+            background-size: 1000px 800px;
+        }
+    }
+    @media all and (min-width: 992px) {
+        .header-carousel .rtp-hero #spa-banner.next,
+        .header-carousel .rtp-hero #spa-banner.active,
+        .header-carousel .rtp-hero .spa-banner.next,
+        .header-carousel .rtp-hero .spa-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/spa-retina.jpg') no-repeat center top;
+            background-size: 2400px 610px;
+        }
+    }
+    @media all and (max-width: 500px) {
+        .header-carousel .rtp-hero #studio-banner.next,
+        .header-carousel .rtp-hero #studio-banner.active,
+        .header-carousel .rtp-hero .studio-banner.next,
+        .header-carousel .rtp-hero .studio-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/studio-retina.jpg') no-repeat center bottom;
+            background-size: contain;
+        }
+    }
+    @media all and (min-width: 501px) {
+        .header-carousel .rtp-hero #studio-banner.next,
+        .header-carousel .rtp-hero #studio-banner.active,
+        .header-carousel .rtp-hero .studio-banner.next,
+        .header-carousel .rtp-hero .studio-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/studio-retina.jpg') no-repeat center bottom;
+            background-size: 1000px 800px;
+        }
+    }
+    @media all and (min-width: 992px) {
+        .header-carousel .rtp-hero #studio-banner.next,
+        .header-carousel .rtp-hero #studio-banner.active,
+        .header-carousel .rtp-hero .studio-banner.next,
+        .header-carousel .rtp-hero .studio-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/studio-retina.jpg') no-repeat center top;
+            background-size: 2400px 610px;
+        }
+    }
+    @media all and (max-width: 500px) {
+        .header-carousel .rtp-hero #tennis-banner.next,
+        .header-carousel .rtp-hero #tennis-banner.active,
+        .header-carousel .rtp-hero .tennis-banner.next,
+        .header-carousel .rtp-hero .tennis-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/tennis-retina.jpg') no-repeat center bottom;
+            background-size: contain;
+        }
+    }
+    @media all and (min-width: 501px) {
+        .header-carousel .rtp-hero #tennis-banner.next,
+        .header-carousel .rtp-hero #tennis-banner.active,
+        .header-carousel .rtp-hero .tennis-banner.next,
+        .header-carousel .rtp-hero .tennis-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/tennis-retina.jpg') no-repeat center bottom;
+            background-size: 1000px 800px;
+        }
+    }
+    @media all and (min-width: 992px) {
+        .header-carousel .rtp-hero #tennis-banner.next,
+        .header-carousel .rtp-hero #tennis-banner.active,
+        .header-carousel .rtp-hero .tennis-banner.next,
+        .header-carousel .rtp-hero .tennis-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tennis-retina.jpg') no-repeat center top;
+            background-size: 2400px 610px;
+        }
+    }
+    @media all and (max-width: 500px) {
+        .header-carousel .rtp-hero #yoga-banner.next,
+        .header-carousel .rtp-hero #yoga-banner.active,
+        .header-carousel .rtp-hero .yoga-banner.next,
+        .header-carousel .rtp-hero .yoga-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/yoga-retina.jpg') no-repeat center bottom;
+            background-size: contain;
+        }
+    }
+    @media all and (min-width: 501px) {
+        .header-carousel .rtp-hero #yoga-banner.next,
+        .header-carousel .rtp-hero #yoga-banner.active,
+        .header-carousel .rtp-hero .yoga-banner.next,
+        .header-carousel .rtp-hero .yoga-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/yoga-retina.jpg') no-repeat center bottom;
+            background-size: 1000px 800px;
+        }
+    }
+    @media all and (min-width: 992px) {
+        .header-carousel .rtp-hero #yoga-banner.next,
+        .header-carousel .rtp-hero #yoga-banner.active,
+        .header-carousel .rtp-hero .yoga-banner.next,
+        .header-carousel .rtp-hero .yoga-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/yoga-retina.jpg') no-repeat center top;
+            background-size: 2400px 610px;
+        }
+    }
+    @media all and (max-width: 500px) {
+        .header-carousel .rtp-hero #lawn-banner.next,
+        .header-carousel .rtp-hero #lawn-banner.active,
+        .header-carousel .rtp-hero .lawn-banner.next,
+        .header-carousel .rtp-hero .lawn-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/lawn-retina.jpg') no-repeat center bottom;
+            background-size: contain;
+        }
+    }
+    @media all and (min-width: 501px) {
+        .header-carousel .rtp-hero #lawn-banner.next,
+        .header-carousel .rtp-hero #lawn-banner.active,
+        .header-carousel .rtp-hero .lawn-banner.next,
+        .header-carousel .rtp-hero .lawn-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/lawn-retina.jpg') no-repeat center bottom;
+            background-size: 1000px 800px;
+        }
+    }
+    @media all and (min-width: 992px) {
+        .header-carousel .rtp-hero #lawn-banner.next,
+        .header-carousel .rtp-hero #lawn-banner.active,
+        .header-carousel .rtp-hero .lawn-banner.next,
+        .header-carousel .rtp-hero .lawn-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/lawn-retina.jpg') no-repeat center top;
+            background-size: 2400px 610px;
+        }
+    }
+    @media all and (max-width: 500px) {
+        .header-carousel .rtp-hero #hvac-banner.next,
+        .header-carousel .rtp-hero #hvac-banner.active,
+        .header-carousel .rtp-hero .hvac-banner.next,
+        .header-carousel .rtp-hero .hvac-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/hvac-retina.jpg') no-repeat center bottom;
+            background-size: contain;
+        }
+    }
+    @media all and (min-width: 501px) {
+        .header-carousel .rtp-hero #hvac-banner.next,
+        .header-carousel .rtp-hero #hvac-banner.active,
+        .header-carousel .rtp-hero .hvac-banner.next,
+        .header-carousel .rtp-hero .hvac-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/hvac-retina.jpg') no-repeat center bottom;
+            background-size: 1000px 800px;
+        }
+    }
+    @media all and (min-width: 992px) {
+        .header-carousel .rtp-hero #hvac-banner.next,
+        .header-carousel .rtp-hero #hvac-banner.active,
+        .header-carousel .rtp-hero .hvac-banner.next,
+        .header-carousel .rtp-hero .hvac-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/hvac-retina.jpg') no-repeat center top;
+            background-size: 2400px 610px;
+        }
+    }
+    @media all and (max-width: 500px) {
+        .header-carousel .rtp-hero #plumbing-banner.next,
+        .header-carousel .rtp-hero #plumbing-banner.active,
+        .header-carousel .rtp-hero .plumbing-banner.next,
+        .header-carousel .rtp-hero .plumbing-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/mobile/plumbing-retina.jpg') no-repeat center bottom;
+            background-size: contain;
+        }
+    }
+    @media all and (min-width: 501px) {
+        .header-carousel .rtp-hero #plumbing-banner.next,
+        .header-carousel .rtp-hero #plumbing-banner.active,
+        .header-carousel .rtp-hero .plumbing-banner.next,
+        .header-carousel .rtp-hero .plumbing-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/tablet/plumbing-retina.jpg') no-repeat center bottom;
+            background-size: 1000px 800px;
+        }
+    }
+    @media all and (min-width: 992px) {
+        .header-carousel .rtp-hero #plumbing-banner.next,
+        .header-carousel .rtp-hero #plumbing-banner.active,
+        .header-carousel .rtp-hero .plumbing-banner.next,
+        .header-carousel .rtp-hero .plumbing-banner.active {
+            background: url('http://www.booker.com/sites/default/themes/booker_new/images/homepage/banner/plumbing-retina.jpg') no-repeat center top;
+            background-size: 2400px 610px;
+        }
+    }</style>
+
+<div class="header-carousel" id="header-carousel">
+    <div class="section-wrapper">
+        <div id="main-carousel" class="carousel slide original">
+            <div class="carousel-fade">
+                <div class="carousel-inner">
+                    <div class="item" id="barbershop-banner"></div>
+                    <div class="item second active" id="spa2-banner"></div>
+                    <div class="item" id="salon2-banner"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-wrapper">
+            <div class="container">
+                <div class="text-wrapper change-1"><h1>Spa &amp; Salon<br class="br-m-only"> Management Made<br
+                        class="br-m-only"> Easy</h1>
+                    <h2>One platform to run and grow<br class="br-m-only"> your business.</h2></div>
+            </div>
+            <div class="button-wrapper desktop"><p class="button btn-yellow tour"><a href="http://www.booker.com/demo">Take
+                a Demo</a></p>
+                <p class="button btn-white"><a href="//fast.wistia.net/embed/iframe/j84c3c7ynl?popover=true"
+                                               class="wistia-popover[height=600,playerColor=7b796a,width=800]"><img
+                        width="18px" src="http://www.booker.com/sites/default/themes/booker_new/images/playBtn2.png"> Watch the Video</a></p>
+            </div>
+        </div>
+    </div>
+</div>

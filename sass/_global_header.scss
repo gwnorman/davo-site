@@ -1,3 +1,24 @@
+.top-header {
+  background: #1f1f1f;
+  color: #a4a4a4;
+  z-index: 5;
+  position: relative;
+}
+nav.navbar {
+  padding: 10px 0;
+  margin: 0;
+  background-color: $blue;
+}
+.navbar .navbar-nav > li > a:hover {
+  color: #666666;
+}
+.navbar .navbar-nav > li.active > a {
+  color: #4a4a4a;
+}
+.navbar-default .navbar-nav >.active > a, .navbar-default .navbar-nav >.active > a:focus, .navbar-default .navbar-nav >.active > a:hover {
+  background: none !important;
+  color: #666666;
+}
 .navbar .navbar-nav > li > a {
   text-transform: none;
   font-size: 14px;

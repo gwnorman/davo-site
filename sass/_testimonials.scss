@@ -1,9 +1,27 @@
 section#davo_testimonials {
+
   .container {
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100% 100%;
+    position: relative;
+    &.main-content {
+      padding: 0px;
+    }
+    .carousel-overlay {
+      position: absolute;
+      bottom:0;
+      z-index: 1000;
+      width: 100%;
+      background-color: rgba(255,255,255,0.7);
+      padding: 15px 0 30px;
+      h2 {
+        color: #4a4a4a;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+      }
+    }
   }
   .news-details {
     min-height: 130px;
@@ -26,4 +44,23 @@ section#davo_testimonials {
     }
   }
 }
+
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  z-index: 1001;
+  left: 45%;
+  top: 20px;
+}
+.owl-theme .owl-nav {
+  display: none;
+}
+
+.btn-signup {
+  color: #fff;
+  background-color: $blue;
+  border-color: $blue;
+}
+
 

@@ -28,6 +28,7 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
@@ -64,7 +65,9 @@
 
                 <!-- Logo -->
                 <div class="col-md-2 col-sm-3 col-xs-3">
-                    <a class="navbar-brand" href="index.html"><img src="images/davo-logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/davo-logo.png" alt="logo">
+                    </a>
                     <!-- INSERT YOUR LOGO HERE -->
                 </div>
 
@@ -113,20 +116,40 @@
     <!-- ===== Start of news ===== -->
     <section id="davo_testimonials">
         <div class="container main-content">
+            <div class="carousel-overlay">
+                <div class="row">
+                    <div class="col-sm-12 content-center">
+                        <h2>DAVO Sales Tax automatically collects, files and pays your sales tax for you.</h2>
+                    </div>
+                    <div class="col-sm-6 content-right">
+                        <a type="button" class="btn btn-success modalClick fancybox.iframe" href="video.html">How It Works In 59 Seconds <i class="fa fa-video-camera" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-sm-6 content-left">
+                        <a href="https://boarding.davotechnologies.com" target="_blank" class="btn btn-signup">Sign Up Now! <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-12">
-                    banner rotation
+                    <div class="owl-carousel owl-theme">
+                        <div class="item"><img src="images/banner-video.jpg" ></div>
+                        <div class="item"><img src="images/banner-waldoVapes.jpg" ></div>
+                        <div class="item"><img src="images/banner-Toast.jpg" ></div>
+                        <div class="item"><img src="images/banner-Pizza.jpg" ></div>
+                        <div class="item"><img src="images/banner-video.jpg" ></div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- ===== End of Blog ===== -->
 
-    <section id="about_davo">
+    <section id="about_davo" style="display: none">
         <div class="container main-content border-top-blue">
-            <div class="col-md-12 feature-video wow fadeIn">
-                <a class="modalClick fancybox.iframe" href="video.html"><img src="images/banner-59seconds.jpg" alt="About Davo" class="img-responsive"></a>
-            </div>
+            <!--<div class="col-md-12 feature-video wow fadeIn">-->
+                <!--<a class="modalClick fancybox.iframe" href="video.html"><img src="images/banner-59seconds.jpg" alt="About Davo" class="img-responsive"></a>-->
+            <!--</div>-->
             <div class="col-md-12 wow fadeIn">
                 <div class="social-links">
                     <div class="row" style="text-align: center">
@@ -176,42 +199,50 @@
     <section id="services">
         <div class="container main-content margin-bottom-none pad-bottom-med">
             <div class="section-title">
-                <h2>Integrated Point of Sale Systems</h2>
+                <h2>DAVO Sales Tax Works With These Point of Sale Systems</h2>
             </div>
             <!-- 1st Row of POS Section -->
-            <div class="row service-wrapper">
-                <div class="col-sm-2 col-xs-6 service wow fadeIn" data-wow-delay="0.4s">
+            <div class="row" >
+                <div class="col-sm-1 hidden-xs">
+                    <!-- spacer -->
+                </div>
+                <div class="col-sm-3 col-xs-6 service wow fadeIn" data-wow-delay="0.4s">
                     <div class="inner">
                         <a href="https://boarding.davotechnologies.com/clover/"><img src="images/pos/pos-clover.png" class="img-responsive" alt="Clover"></a>
                     </div>
                 </div>
-                <div class="col-sm-2 col-xs-6 service wow fadeIn" data-wow-delay="0.4s">
+                <div class="col-sm-3 col-xs-6 service wow fadeIn" data-wow-delay="0.4s">
                     <div class="inner">
                         <a href="https://boarding.davotechnologies.com/revel/"><img src="images/pos/pos-revel.png" class="img-responsive" alt="Revel"></a>
                     </div>
                 </div>
-                <div class="col-sm-2 col-xs-6 service wow fadeIn" data-wow-delay="0.4s">
+                <div class="col-sm-3 col-xs-6 service wow fadeIn" data-wow-delay="0.4s">
                     <div class="inner">
                         <a href="https://boarding.davotechnologies.com/quickbooks/"><img src="images//pos/pos-quickbooks.png" class="img-responsive" alt="QuickBooks"></a>
                     </div>
                 </div>
+            </div>
 
-                    <div class="col-sm-2 col-xs-6 service wow fadeIn" data-wow-delay="0.8s">
-                        <div class="inner">
-                            <a href="https://boarding.davotechnologies.com/square/"><img src="images//pos/pos-square.png" class="img-responsive" alt="Aloha"></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 col-xs-6 service wow fadeIn" data-wow-delay="0.8s">
-                        <div class="inner">
-                            <a href="https://boarding.davotechnologies.com/poynt/"><img src="images/pos/pos-poynt.png" class="img-responsive" alt="Poynt"></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 col-xs-6 service wow fadeIn" data-wow-delay="0.8s">
-                        <div class="inner">
-                            <a href="https://boarding.davotechnologies.com/abc/"><img src="images//pos/pos-abc.png" class="img-responsive" alt="ABC Financial"></a>
-                        </div>
+            <div class="row service-wrapper">
+                <div class="col-sm-2 hidden-xs">
+                    <!-- spacer -->
+                </div>
+                <div class="col-sm-3 col-xs-6 service wow fadeIn" data-wow-delay="0.8s">
+                    <div class="inner">
+                        <a href="https://boarding.davotechnologies.com/square/"><img src="images//pos/pos-square.png" class="img-responsive" alt="Aloha"></a>
                     </div>
                 </div>
+                <div class="col-sm-3 col-xs-6 service wow fadeIn" data-wow-delay="0.8s">
+                    <div class="inner">
+                        <a href="https://boarding.davotechnologies.com/poynt/"><img src="images/pos/pos-poynt.png" class="img-responsive" alt="Poynt"></a>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 service wow fadeIn" data-wow-delay="0.8s">
+                    <div class="inner">
+                        <a href="https://boarding.davotechnologies.com/abc/"><img src="images//pos/pos-abc.png" class="img-responsive" alt="ABC Financial"></a>
+                    </div>
+                </div>
+            </div>
             <!-- End of 2nd Row of POS Section -->
             <div class="section-title">
                 <div class="row">
@@ -230,12 +261,15 @@
 
     <section id="products">
         <!-- Start of Info 3 -->
-        <div class="container-fluid">
-            <div class="container main-content border-top-blue">
+        <!--<div class="container">-->
+        <div class="container main-content border-top-blue">
+            <div class="row">
                 <div class="section-title pad-bottom-none">
                     <h2>DAVO Products</h2>
-                    <p class="section-intro">When it comes to the issue of sales tax security, DAVO is the only sound answer. We do all the
-                        work for you. Our technology takes the whole process off your hands, so you never have to worry about </p>
+                    <p class="section-intro">
+                        When it comes to sales tax, DAVO is the only answer. We do all the work for
+                        you. Our technology takes the whole process off your hands, so you never have to worry.
+                    </p>
                 </div>
                 <div class="col-md-12">
                     <!-- start of products -->
@@ -344,28 +378,47 @@
                 </div>
             </div>
         </div>
+        <!--</div>-->
         <!-- End of Info 3 -->
     </section>
     <!-- ===== End of Service Section ===== -->
 
 
-    <!-- ===== Start of Subscribe ===== -->
+    <!-- ===== Start of Text Line ===== -->
     <section id="break-line" class="">
         <div class="container">
             <div class="col-md-12 wow fadeIn">
-                <h2></span> Check sales tax Off your to-do list forever.</h2>
+                <h2></span>Check Sales Tax Off Your To-Do List Forever.</h2>
             </div>
         </div>
     </section>
-    <!-- ===== End of Subscribe ===== -->
+    <!-- ===== End of Text Line ===== -->
+
+    <!-- ===== Start of Social links ===== -->
+    <section class="social-media-icons">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow fadeIn social-links-bttm">
+                    <a href="javascript:void(0);" class="deactivate" style="font-size: 16px;color:#7e7f7f;">Follow us:</a>
+                    <a href="https://www.facebook.com/DavoSalesTax" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/DAVOSalesTax" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/company/davo-technologies" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/davosalestax/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/channel/UC-mt7oOeX0xXeNMUvR8XUbQ" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                    <a href="https://vimeo.com/davotechnologies" target="_blank"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== End of Social links ===== -->
 
 
-    <!-- ===== Start of Team ===== -->
+    <!-- ===== Start of Support ===== -->
     <section id="support" class="">
         <div class="container main-content">
             <div class="section-title wow fadeIn">
                 <h2> Support & Resources </h2>
-                <p>Contact our Support team at <a href="tel:8888598432">(888) 859-8432</a> or via email at <a href="mailto:upport@davotechnologies.com">support@davotechnologies.com</a> with any questions.</p>
+                <p>Contact us at <a href="tel:8886598432">(888) 659-8432</a> or via email at <a href="mailto:upport@davotechnologies.com">support@davotechnologies.com</a> with any questions.</p>
             </div>
 
             <h3 class="support-doc-title  wow fadeIn">
@@ -480,10 +533,7 @@
             </div>
         </div>
     </section>
-    <!-- ===== End of Team ===== -->
-
-
-
+    <!-- ===== End of Support ===== -->
 
 
     <!-- ===== Start of Footer ===== -->
@@ -532,11 +582,10 @@
                 <!-- start of footer information & links section -->
                 <div class="row footer-info">
                     <div class="col-sm-3 about">
-                        <a href="index.html"><img src="images/davo-logo.png" alt="Davo"></a>
-                        <p>Our technology takes the whole process off your hands, so you never
-                            have to worry about how much or when to pay sales tax again.</p>
+                        <a href="index.html"><img src="images/davo-footer-logo.png" alt="Davo"></a>
+                        <p>Automated Sales Tax Has Arrived!</p>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3" style="padding-left:40px;">
                         <h4>Important Links</h4>
                         <ul class="footer-links">
                             <li><a href="faqs.html">FAQs</a></li>
@@ -545,7 +594,7 @@
                             <li><a href="termsandconditions.html">Terms & Conditions</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3" style="padding-left:40px;">
                         <h4>Products</h4>
                         <ul class="footer-links">
                             <li><a class="modalClick fancybox.iframe" href="prod-navigate.html">DAVO Sales Tax</a></li>
@@ -557,6 +606,7 @@
                         <ul class="footer-links">
                             <li><a href="tel:888-659-8432"><i class="fa fa-phone"></i> 888-659-8432</a></li>
                             <li><a href="mailto:info@davotechnologies.com"><i class="fa fa-envelope"></i> info@davotechnologies.com</a></li>
+                            <li><a href="mailto:support@davotechnologies.com"><i class="fa fa-envelope"></i> support@davotechnologies.com</a></li>
                             <li><i class="fa fa-map-marker"></i>Portland ME 04101</li>
                         </ul>
                     </div>
@@ -568,7 +618,9 @@
 
         <!-- start of copyright section -->
         <div class="copyright">
-            Copyright &copy;2016 DAVO Technologies. All Rights Reserved
+            <div class="container">
+                Copyright &copy<script>document.write(new Date().getFullYear())</script> DAVO Technologies. All Rights Reserved
+            </div>
         </div>
         <!-- end of copyright section -->
 
@@ -625,6 +677,26 @@
             $('.support-doc-title .fa').toggleClass('fa-angle-double-down fa-angle-double-up');
 
         });
+
+        $('.owl-carousel').owlCarousel({
+            loop:false,
+            margin:10,
+            nav:true,
+            autoplay: true,
+            animateIn: 'fadeIn', // add this
+            animateOut: 'fadeOut', // and this
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
     });
 </script>
 </body>
