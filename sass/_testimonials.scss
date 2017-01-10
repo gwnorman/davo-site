@@ -43,6 +43,22 @@ section#davo_testimonials {
       color: #333;
     }
   }
+  @media ( max-width: 768px) {
+    .content-right {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .content-left {
+      text-align: center;
+    }
+    .content-center {
+      text-align: center;
+      h2 {
+        font-size: 18px;
+      }
+    }
+  }
+
 }
 
 .owl-theme .owl-dots {
@@ -51,7 +67,10 @@ section#davo_testimonials {
   position: absolute;
   z-index: 1001;
   left: 45%;
-  top: 20px;
+  bottom: -30px;
+  @media (max-width: 480px) {
+    left: 35%;
+  }
 }
 .owl-theme .owl-nav {
   display: none;

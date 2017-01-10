@@ -201,6 +201,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/banner-dallash.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106863,
+		"inputAbbreviatedPath": "\/images\/banner-dallash.jpg",
+		"outputAbbreviatedPath": "\/images\/banner-dallash.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/banner-Pizza.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -219,6 +230,17 @@
 		"initialSize": 90036,
 		"inputAbbreviatedPath": "\/images\/banner-spa2-lg.jpg",
 		"outputAbbreviatedPath": "\/images\/banner-spa2-lg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/banner-terminal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62623,
+		"inputAbbreviatedPath": "\/images\/banner-terminal.jpg",
+		"outputAbbreviatedPath": "\/images\/banner-terminal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -274,6 +296,17 @@
 		"initialSize": 6119,
 		"inputAbbreviatedPath": "\/images\/davo-footer-logo.png",
 		"outputAbbreviatedPath": "\/images\/davo-footer-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/davo-logo-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7169,
+		"inputAbbreviatedPath": "\/images\/davo-logo-blue.png",
+		"outputAbbreviatedPath": "\/images\/davo-logo-blue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -417,6 +450,72 @@
 		"initialSize": 47298,
 		"inputAbbreviatedPath": "\/images\/lib-bg.jpg",
 		"outputAbbreviatedPath": "\/images\/lib-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/m-banner-dallash.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71253,
+		"inputAbbreviatedPath": "\/images\/m-banner-dallash.jpg",
+		"outputAbbreviatedPath": "\/images\/m-banner-dallash.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/m-banner-Pizza.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63982,
+		"inputAbbreviatedPath": "\/images\/m-banner-Pizza.jpg",
+		"outputAbbreviatedPath": "\/images\/m-banner-Pizza.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/m-banner-terminal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35783,
+		"inputAbbreviatedPath": "\/images\/m-banner-terminal.jpg",
+		"outputAbbreviatedPath": "\/images\/m-banner-terminal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/m-banner-Toast.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77124,
+		"inputAbbreviatedPath": "\/images\/m-banner-Toast.jpg",
+		"outputAbbreviatedPath": "\/images\/m-banner-Toast.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/m-banner-video.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52509,
+		"inputAbbreviatedPath": "\/images\/m-banner-video.jpg",
+		"outputAbbreviatedPath": "\/images\/m-banner-video.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/m-banner-waldoVapes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72835,
+		"inputAbbreviatedPath": "\/images\/m-banner-waldoVapes.jpg",
+		"outputAbbreviatedPath": "\/images\/m-banner-waldoVapes.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -670,6 +769,72 @@
 		"initialSize": 7505,
 		"inputAbbreviatedPath": "\/images\/team\/team3.jpg",
 		"outputAbbreviatedPath": "\/images\/team\/team3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/testimonial_images-dallash.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47133,
+		"inputAbbreviatedPath": "\/images\/testimonial_images-dallash.jpg",
+		"outputAbbreviatedPath": "\/images\/testimonial_images-dallash.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/testimonial_images-grandbanks.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43926,
+		"inputAbbreviatedPath": "\/images\/testimonial_images-grandbanks.jpg",
+		"outputAbbreviatedPath": "\/images\/testimonial_images-grandbanks.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/testimonial_images-toast.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73052,
+		"inputAbbreviatedPath": "\/images\/testimonial_images-toast.jpg",
+		"outputAbbreviatedPath": "\/images\/testimonial_images-toast.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/testimonial_images-weponcraft.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22246,
+		"inputAbbreviatedPath": "\/images\/testimonial_images-weponcraft.jpg",
+		"outputAbbreviatedPath": "\/images\/testimonial_images-weponcraft.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/testimonial_images-williemaesnola.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39982,
+		"inputAbbreviatedPath": "\/images\/testimonial_images-williemaesnola.jpg",
+		"outputAbbreviatedPath": "\/images\/testimonial_images-williemaesnola.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/testimonial_img-vapes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63364,
+		"inputAbbreviatedPath": "\/images\/testimonial_img-vapes.jpg",
+		"outputAbbreviatedPath": "\/images\/testimonial_img-vapes.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

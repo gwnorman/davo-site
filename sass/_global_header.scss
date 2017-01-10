@@ -37,5 +37,31 @@ a.header-phone {
   .navbar-nav {
     float: left;
     margin: 12px -15px;
+    margin-top: 18px;
   }
 }
+.brand-wrapper {
+  position: relative;
+  .davo-tag-line {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 14px;
+    left: 150px;
+    bottom: 20px;
+    width: 300px;
+    letter-spacing: 0.8px;
+    @media (max-width: 991px) {
+      bottom: 24px;
+    }
+    @media (max-width: 768px) {
+      bottom: 8px;
+      left: 100px;
+    }
+    @media (max-width: 480px) {
+      left: 18px;
+      display:none;
+    }
+  }
+}
+
+

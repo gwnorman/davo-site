@@ -10,22 +10,13 @@ section {
   height: auto;
   display: block; }
 
-.fancybox-skin {
-  position: relative;
-  background: #29b2fe;
-  color: #444;
-  text-shadow: none;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px; }
-
 .div-bar-blue {
   width: 100%;
   height: 3px;
-  background-color: #29b1fd; }
+  background-color: #2085c9; }
 
 .border-top-blue {
-  border-top: 3px solid #29b1fd; }
+  border-top: 3px solid #2085c9; }
 
 .pad-top-none {
   padding-top: 0; }
@@ -103,15 +94,26 @@ section {
   text-align: center; }
 
 .navbar-brand img {
-  height: 80px;
+  height: 75px;
   cursor: pointer; }
+  @media (min-width: 769px) and (max-width: 991px) {
+    .navbar-brand img {
+      height: 65px;
+      width: auto; } }
+  @media (max-width: 768px) {
+    .navbar-brand img {
+      height: 45px;
+      width: auto; } }
 
 .navbar-brand {
   float: left;
-  height: 80px;
+  height: 75px;
   padding: 0;
   font-size: 18px;
   line-height: 20px; }
+  @media (max-width: 768px) {
+    .navbar-brand {
+      height: 45px; } }
 
 #break-line h2 {
   letter-spacing: 0.1em; }
@@ -181,7 +183,30 @@ a.header-phone {
 @media (min-width: 768px) {
   .navbar-nav {
     float: left;
-    margin: 12px -15px; } }
+    margin: 12px -15px;
+    margin-top: 18px; } }
+.brand-wrapper {
+  position: relative; }
+  .brand-wrapper .davo-tag-line {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 14px;
+    left: 150px;
+    bottom: 20px;
+    width: 300px;
+    letter-spacing: 0.8px; }
+    @media (max-width: 991px) {
+      .brand-wrapper .davo-tag-line {
+        bottom: 24px; } }
+    @media (max-width: 768px) {
+      .brand-wrapper .davo-tag-line {
+        bottom: 8px;
+        left: 100px; } }
+    @media (max-width: 480px) {
+      .brand-wrapper .davo-tag-line {
+        left: 18px;
+        display: none; } }
+
 .top-footer .about img {
   height: 60px;
   margin-bottom: 25px; }
@@ -299,7 +324,10 @@ a.header-phone {
   padding-right: 15px;
   margin-bottom: 30px; }
 #services .h3, #services h3 {
-  font-size: 18px; }
+  font-size: 18px;
+  padding-bottom: 20px; }
+  #services .h3 a:hover, #services h3 a:hover {
+    text-decoration: underline !important; }
 
 section#davo_testimonials .container {
   background-color: #ffffff;
@@ -337,6 +365,16 @@ section#davo_testimonials .news-single {
 section#davo_testimonials .section-title p {
   font-size: 16px;
   color: #333; }
+@media (max-width: 768px) {
+  section#davo_testimonials .content-right {
+    text-align: center;
+    margin-bottom: 10px; }
+  section#davo_testimonials .content-left {
+    text-align: center; }
+  section#davo_testimonials .content-center {
+    text-align: center; }
+    section#davo_testimonials .content-center h2 {
+      font-size: 18px; } }
 
 .owl-theme .owl-dots {
   text-align: center;
@@ -344,7 +382,10 @@ section#davo_testimonials .section-title p {
   position: absolute;
   z-index: 1001;
   left: 45%;
-  top: 20px; }
+  bottom: -30px; }
+  @media (max-width: 480px) {
+    .owl-theme .owl-dots {
+      left: 35%; } }
 
 .owl-theme .owl-nav {
   display: none; }
@@ -427,7 +468,7 @@ section#products .news-single {
   box-shadow: none;
   border: 1px solid #CCCCCC; }
 section#products .news-single .news-header {
-  background-color: #29b1fd;
+  background-color: #2085c9;
   padding: 25px;
   font-size: 28px;
   line-height: 30px;
@@ -442,18 +483,20 @@ section#products .news-single .news-header {
 section#products .news-single .news-title h3, section#products .news-single .news-title h3 {
   text-transform: capitalize;
   height: 45px; }
+section#products .news-single .news-title {
+  padding-bottom: 0px; }
 section#products .news-single .product-list {
   list-style: none;
   padding: 0;
   margin: 0; }
   @media (min-width: 1199px) {
     section#products .news-single .product-list {
-      min-height: 290px; } }
+      min-height: 250px; } }
   @media (min-width: 992px) and (max-width: 1198px) {
     section#products .news-single .product-list {
-      min-height: 350px; } }
+      min-height: 320px; } }
   section#products .news-single .product-list li {
-    margin-bottom: 15px; }
+    margin-bottom: 10px; }
   section#products .news-single .product-list li {
     padding-left: 1em;
     text-indent: -.7em; }
@@ -462,15 +505,48 @@ section#products .news-single .product-list {
     color: #29b1fd;
     /* or whatever color you prefer */ }
 
+.testimonials .news-title p {
+  margin-bottom: 10px; }
+  @media (max-width: 1170px) {
+    .testimonials .news-title p {
+      height: 40px; } }
+.testimonials .news-single {
+  margin-bottom: 15px;
+  min-height: 350px; }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .testimonials .news-single {
+      min-height: 420px; } }
+  @media (max-width: 640px) {
+    .testimonials .news-single {
+      min-height: 450px; } }
+@media (max-width: 640px) {
+  .testimonials .news-title h3, .testimonials .news-title h3 > a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #323232; } }
+
 section#break-line .container {
   background-color: #FFFFFF;
-  padding: 50px 0; }
+  padding: 50px 0;
+  display: flex;
+  align-items: center; }
 section#break-line h2 {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 30px;
   color: #29b1fd;
   text-align: center;
   padding-bottom: 0; }
+section#break-line .break-line-text {
+  font-weight: 500;
+  font-size: 30px;
+  color: #29b1fd;
+  text-align: center;
+  position: relative;
+  padding-left: 80px; }
+  section#break-line .break-line-text .breakline-img {
+    position: absolute;
+    top: -20px;
+    left: -60px; }
 
 #support .container {
   border-top: 1px solid #EEE;
@@ -513,6 +589,9 @@ section#break-line h2 {
 @media (max-width: 768px) {
   .pdf-txt.supportCell {
     width: 250px; } }
+#legal .container {
+  background-color: #FFFFFF; }
+
 .responsive-img {
   max-width: 100%;
   height: auto;
@@ -520,12 +599,11 @@ section#break-line h2 {
 
 .fancybox-skin {
   position: relative;
-  background: #29b2fe;
   color: #444;
   text-shadow: none;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px; }
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px; }
 
 .panel-heading {
   background: #fff;
@@ -547,6 +625,12 @@ section#break-line h2 {
 .main-content {
   padding: 30px 0; }
 
+.btn-border:hover {
+  background-color: #EEE; }
+
+@media (max-width: 992px) {
+  .cbp-spmenu {
+    background: #045b8c; } }
 .modal-info h2.section-title {
   background-color: #29b2fe;
   color: #FFFFFF;
@@ -618,3 +702,13 @@ footer {
       color: #cccccc; }
   footer .about {
     padding-left: 40px; }
+
+.top-footer #contact .contact-us .contact-form .input-box {
+  border: 1px solid rgba(101, 95, 95, 0.5); }
+
+.top-footer #contact .contact-us .contact-form .textarea-box {
+  border: 1px solid rgba(101, 95, 95, 0.5); }
+
+.top-footer #contact .contact-us .contact-form button {
+  color: rgba(101, 95, 95, 0.5);
+  border: 1px solid rgba(101, 95, 95, 0.5); }

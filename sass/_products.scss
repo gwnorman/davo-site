@@ -20,7 +20,7 @@ section#products {
   .news-single {
     //@include box-shadow(0,0,15px,rgba(68,68,68,0.4));
     .news-header {
-      background-color: $blue;
+      background-color: $blue-med;
       padding: 25px;
       font-size: 28px;
       line-height: 30px;
@@ -37,18 +37,21 @@ section#products {
       text-transform: capitalize;
       height: 45px;
     }
+    .news-title {
+      padding-bottom: 0px;
+    }
     .product-list {
       list-style: none;
       padding:0;
       margin:0;
       @media (min-width: 1199px) {
-        min-height:290px;
+        min-height:250px;
       }
       @media (min-width: 992px) and (max-width: 1198px) {
-        min-height:350px;
+        min-height:320px;
       }
       li {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
       }
       li {
         padding-left: 1em;
@@ -60,5 +63,29 @@ section#products {
       }
     }
   }
-
+}
+.testimonials {
+  .news-title p {
+    margin-bottom: 10px;
+    @media (max-width: 1170px) {
+      height: 40px;
+    }
+  }
+  .news-single {
+    margin-bottom: 15px;
+    min-height: 350px;
+    @media (min-width: 768px) and (max-width: 1199px) {
+      min-height: 420px;
+    }
+    @media (max-width: 640px) {
+      min-height: 450px;
+    }
+  }
+  @media (max-width: 640px) {
+    .news-title h3, .news-title h3 > a {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #323232;
+    }
+  }
 }
