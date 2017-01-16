@@ -145,6 +145,10 @@ a.deactivate {
   -o-transition: all 0.5s ease-in;
   -ms-transition: all 0.5s ease-in; }
 
+.legal-header {
+  padding-top: 80px;
+  background: #FFF; }
+
 .top-header {
   background: #1f1f1f;
   color: #a4a4a4;
@@ -329,72 +333,6 @@ a.header-phone {
   #services .h3 a:hover, #services h3 a:hover {
     text-decoration: underline !important; }
 
-section#davo_testimonials .container {
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100% 100%;
-  position: relative; }
-  section#davo_testimonials .container.main-content {
-    padding: 0px; }
-  section#davo_testimonials .container .carousel-overlay {
-    position: absolute;
-    bottom: 0;
-    z-index: 1000;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 15px 0 30px; }
-    section#davo_testimonials .container .carousel-overlay h2 {
-      color: #4a4a4a;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 400; }
-section#davo_testimonials .news-details {
-  min-height: 130px; }
-section#davo_testimonials .news-single {
-  background-color: #fff;
-  width: 100%;
-  padding-bottom: 20px;
-  border-radius: 0px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  border: 1px solid #CCCCCC;
-  -webkit-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
-  -moz-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
-  box-shadow: 0 0 15px rgba(68, 68, 68, 0.4); }
-section#davo_testimonials .section-title p {
-  font-size: 16px;
-  color: #333; }
-@media (max-width: 768px) {
-  section#davo_testimonials .content-right {
-    text-align: center;
-    margin-bottom: 10px; }
-  section#davo_testimonials .content-left {
-    text-align: center; }
-  section#davo_testimonials .content-center {
-    text-align: center; }
-    section#davo_testimonials .content-center h2 {
-      font-size: 18px; } }
-
-.owl-theme .owl-dots {
-  text-align: center;
-  -webkit-tap-highlight-color: transparent;
-  position: absolute;
-  z-index: 1001;
-  left: 45%;
-  bottom: -30px; }
-  @media (max-width: 480px) {
-    .owl-theme .owl-dots {
-      left: 35%; } }
-
-.owl-theme .owl-nav {
-  display: none; }
-
-.btn-signup {
-  color: #fff;
-  background-color: #29b1fd;
-  border-color: #29b1fd; }
-
 #sign-up {
   padding: 40px 0 10px 0;
   background: #29b1fd;
@@ -550,7 +488,7 @@ section#break-line .break-line-text {
 
 #support .container {
   border-top: 1px solid #EEE;
-  background-color: #f3f0e9; }
+  background-color: #FFF; }
 #support .section-title p {
   color: #333;
   font-size: 16px;
@@ -591,6 +529,90 @@ section#break-line .break-line-text {
     width: 250px; } }
 #legal .container {
   background-color: #FFFFFF; }
+
+section#davo_testimonials .container {
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%;
+  position: relative; }
+  section#davo_testimonials .container.main-content {
+    padding: 0px; }
+  section#davo_testimonials .container .carousel-overlay {
+    position: absolute;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px 0 30px; }
+    section#davo_testimonials .container .carousel-overlay h2 {
+      color: #4a4a4a;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400; }
+section#davo_testimonials .news-details {
+  min-height: 130px; }
+section#davo_testimonials .news-single {
+  background-color: #fff;
+  width: 100%;
+  padding-bottom: 20px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #CCCCCC;
+  -webkit-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
+  -moz-box-shadow: 0 0 15px rgba(68, 68, 68, 0.4);
+  box-shadow: 0 0 15px rgba(68, 68, 68, 0.4); }
+section#davo_testimonials .section-title p {
+  font-size: 16px;
+  color: #333; }
+@media (max-width: 768px) {
+  section#davo_testimonials .content-right {
+    text-align: center;
+    margin-bottom: 10px; }
+  section#davo_testimonials .content-left {
+    text-align: center; }
+  section#davo_testimonials .content-center {
+    text-align: center; }
+    section#davo_testimonials .content-center h2 {
+      font-size: 18px; } }
+
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  z-index: 1001;
+  left: 45%;
+  bottom: -30px; }
+  @media (max-width: 480px) {
+    .owl-theme .owl-dots {
+      left: 35%; } }
+
+.owl-theme .owl-nav {
+  display: none; }
+
+.btn-signup {
+  color: #fff;
+  background-color: #29b1fd;
+  border-color: #29b1fd; }
+
+.testimonials p.section-intro {
+  height: 100px; }
+.testimonials .owl-theme .owl-dots {
+  left: 48%; }
+  @media screen and (max-width: 991px) {
+    .testimonials .owl-theme .owl-dots {
+      left: 45%; } }
+  @media screen and (max-width: 600px) {
+    .testimonials .owl-theme .owl-dots {
+      left: 35%; } }
+.testimonials .owl-theme .owl-nav {
+  display: block;
+  margin-top: -10px; }
+.testimonials .owl-dots {
+  display: none; }
+.testimonials .owl-theme .owl-nav [class*='owl-']:hover {
+  background: #29b1fd; }
 
 .responsive-img {
   max-width: 100%;
@@ -659,11 +681,16 @@ section#break-line .break-line-text {
       margin: 0 10px;
       max-width: 30%; }
 
-.faq-list li {
-  margin-bottom: 20px; }
-  .faq-list li strong {
-    display: block;
-    margin-bottom: 10px; }
+.faq-list {
+  padding: 20px 100px; }
+  @media screen and (max-width: 768px) {
+    .faq-list {
+      padding: 20px 40px; } }
+  .faq-list li {
+    margin-bottom: 20px; }
+    .faq-list li strong {
+      display: block;
+      margin-bottom: 10px; }
 
 footer {
   background-color: #e6f5fd; }

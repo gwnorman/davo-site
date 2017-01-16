@@ -1,4 +1,8 @@
 .faq-list {
+  padding: 20px 100px;
+  @media screen and (max-width: 768px) {
+    padding: 20px 40px;
+  }
      li {
          margin-bottom: 20px;
          strong {
